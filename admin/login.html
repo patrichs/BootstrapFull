@@ -17,16 +17,17 @@
 
       <form class="form-signin">
         <h2 class="form-signin-heading">Please sign in</h2>
-        <input type="text" class="input-block-level" placeholder="Email address">
-        <input type="password" class="input-block-level" placeholder="Password">
+        <input type="text" class="input-block-level" placeholder="Email address or username" id="username">
+        <input type="password" class="input-block-level" placeholder="Password" id="password">
         <label class="checkbox">
           <input type="checkbox" value="remember-me"> Remember me
         </label>
-        <button class="btn btn-large btn-primary" type="submit">Sign in</button>
+        <div class="btn btn-large btn-primary" type="submit" id="signin">Sign in</div>
       </form>
 
     </div> <!-- /container -->
     <script src="vendors/jquery-1.9.1.min.js"></script>
     <script src="bootstrap/js/bootstrap.min.js"></script>
+    <script src="login.js"></script>
   </body>
 </html>

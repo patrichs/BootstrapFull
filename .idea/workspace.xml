@@ -9,6 +9,11 @@
     <file path="/Dummy.txt" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380348153761" ignored="false" />
     <file path="/readme.md" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380347378676" ignored="false" />
     <file path="/checkAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380375803528" ignored="false" />
+    <file path="/login.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380405437455" ignored="false" />
+    <file path="/login.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406654161" ignored="false" />
+    <file path="/makeAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380405892878" ignored="false" />
+    <file path="/register.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406244223" ignored="false" />
+    <file path="/register.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406644969" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,19 +38,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.html">
+      <file leaf-file-name="dbClass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
+            <state line="23" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="-15.038462">
               <folding />
             </state>
           </provider>
@@ -54,36 +50,61 @@
       <file leaf-file-name="dbconfig.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/php/configs/dbconfig.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="1" selection-start="209" selection-end="209" vertical-scroll-proportion="-5.230769">
+            <state line="8" column="1" selection-start="208" selection-end="208" vertical-scroll-proportion="-5.230769">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changeUserPassword.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/changeUserPassword.php">
+      <file leaf-file-name="login.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/login.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="64" selection-start="207" selection-end="207" vertical-scroll-proportion="-5.230769">
+            <state line="27" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.53810084">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cryptography.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/cryptography.php">
+      <file leaf-file-name="register.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/register.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding>
-                <element signature="e#6#116#0" expanded="true" />
-              </folding>
+            <state line="23" column="43" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="dbClass.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="188" column="13" selection-start="5619" selection-end="5619" vertical-scroll-proportion="3.768868">
+            <state line="31" column="53" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-20.26923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="32" selection-start="677" selection-end="677" vertical-scroll-proportion="-11.115385">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeAuth.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/makeAuth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="12" selection-start="823" selection-end="823" vertical-scroll-proportion="-27.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeRegister.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="31" column="41" selection-start="532" selection-end="532" vertical-scroll-proportion="-14.961538">
               <folding />
             </state>
           </provider>
@@ -93,33 +114,6 @@
         <entry file="file://$PROJECT_DIR$/admin/php/checkAuth.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="14" column="43" selection-start="215" selection-end="215" vertical-scroll-proportion="-9.153846">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="loginUser.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/loginUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="7" selection-end="62" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="logoutUser.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/logoutUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="registerUser.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/registerUser.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
@@ -144,8 +138,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/admin/php/configs/dbconfig.php" />
         <option value="$PROJECT_DIR$/admin/php/checkAuth.php" />
+        <option value="$PROJECT_DIR$/admin/php/makeAuth.php" />
+        <option value="$PROJECT_DIR$/admin/register.html" />
+        <option value="$PROJECT_DIR$/admin/login.html" />
+        <option value="$PROJECT_DIR$/admin/register.js" />
+        <option value="$PROJECT_DIR$/admin/login.js" />
+        <option value="$PROJECT_DIR$/admin/php/makeRegister.php" />
+        <option value="$PROJECT_DIR$/admin/php/configs/dbconfig.php" />
       </list>
     </option>
   </component>
@@ -156,7 +156,7 @@
     </include_path>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
@@ -237,6 +237,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="php" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="configs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -274,6 +296,9 @@
   <component name="RunManager">
     <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
@@ -321,12 +346,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32977587" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2497332" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
@@ -419,13 +444,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/registerUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="3" selection-start="3" selection-end="3" vertical-scroll-proportion="0.0">
@@ -440,16 +458,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/configs/dbconfig.php">
+    <entry file="file://$PROJECT_DIR$/admin/php/cryptography.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="1" selection-start="209" selection-end="209" vertical-scroll-proportion="-5.230769">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#116#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="53" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-20.26923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/loginUser.php">
+    <entry file="file://$PROJECT_DIR$/admin/php/makeAuth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="7" selection-end="62" vertical-scroll-proportion="-1.3076923">
+        <state line="42" column="12" selection-start="823" selection-end="823" vertical-scroll-proportion="-27.461538">
           <folding />
         </state>
       </provider>
@@ -461,18 +488,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/cryptography.php">
+    <entry file="file://$PROJECT_DIR$/admin/register.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#6#116#0" expanded="true" />
-          </folding>
+        <state line="23" column="43" selection-start="688" selection-end="688" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="41" selection-start="532" selection-end="532" vertical-scroll-proportion="-14.961538">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="188" column="13" selection-start="5619" selection-end="5619" vertical-scroll-proportion="3.768868">
+        <state line="23" column="0" selection-start="577" selection-end="577" vertical-scroll-proportion="-15.038462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://db-console:/de0c0805/4092148c-54e9-4415-97f3-728901acd27b/">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/configs/dbconfig.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="1" selection-start="208" selection-end="208" vertical-scroll-proportion="-5.230769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="32" selection-start="677" selection-end="677" vertical-scroll-proportion="-11.115385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="25" selection-start="933" selection-end="933" vertical-scroll-proportion="0.53810084">
           <folding />
         </state>
       </provider>
