@@ -1,0 +1,1 @@
+This project is intended to deliver full back-end, ajax and database support to VinceG's Bootstrap Theme.
