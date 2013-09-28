@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3764245873">
+    <data-source source="LOCAL" name="Data Source" product="MySQL" version="5.6.11" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.26 ( Revision: ${bzr.revision-id} )" uuid="4092148c-54e9-4415-97f3-728901acd27b">
+      <extra-name-characters>#@</extra-name-characters>
+      <identifier-quote-string>`</identifier-quote-string>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306/bootstrapfull</jdbc-url>
+      <user-name>bootstrapfull</user-name>
+      <user-password>df9bdf98df99df9edf9fdf9cdf9ddf92</user-password>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/../mysql-connector-java-5.1.26-bin.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+
