@@ -39,7 +39,6 @@ if (isset($getJson["login"]))
             $array["isSuccess"] = 1;
             $array["replyMessage"] = $createCon->messages;
         }
-
         else
         {
             $array["typeOf"] = "login";

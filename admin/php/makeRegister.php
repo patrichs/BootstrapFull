@@ -40,7 +40,6 @@ if (isset($getJson["register"]))
             $array["isSuccess"] = 1;
             $array["replyMessage"] = $createCon->messages;
         }
-
         else
         {
             $array["typeOf"] = "register";
