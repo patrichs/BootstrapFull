@@ -16,7 +16,7 @@ $(document).ready(function() {
                 {
                     if (data.replyMessage === "authed")
                     {
-                        window.location = "index.html";
+                        window.location = "index.php";
                     }
                     else
                     {
@@ -24,7 +24,7 @@ $(document).ready(function() {
                         {
                             //Post message that login succeeded and redirect to the main page
                             console.log(data.replyMessage);
-                            window.location = "index.html";
+                            window.location = "index.php";
                         }
                         else
                         {

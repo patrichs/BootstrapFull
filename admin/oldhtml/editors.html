@@ -2,16 +2,16 @@
 <html>
     
     <head>
-        <title>Calendar</title>
+        <title>WYSIWYG Editors</title>
         <!-- Bootstrap -->
-        <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-        <link href="vendors/fullcalendar/fullcalendar.css" rel="stylesheet" media="screen">
-        <link href="assets/styles.css" rel="stylesheet" media="screen">
+        <link rel="stylesheet" type="text/css" href="../vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.css"></link>
+        <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <link href="../assets/styles.css" rel="stylesheet" media="screen">
         <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
         <!--[if lt IE 9]>
             <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
-        <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script src="../vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
     </head>
     
     <body>
@@ -35,7 +35,7 @@
                                     </li>
                                     <li class="divider"></li>
                                     <li>
-                                        <a tabindex="-1" href="login.html">Logout</a>
+                                        <a tabindex="-1" href="../login.html">Logout</a>
                                     </li>
                                 </ul>
                             </li>
@@ -127,31 +127,28 @@
         </div>
         <div class="container-fluid">
             <div class="row-fluid">
-                <div class="span3" id="sidebar">
+                <div class="span2" id="sidebar">
                     <ul class="nav nav-list bs-docs-sidenav nav-collapse collapse">
                         <li>
                             <a href="index.html"><i class="icon-chevron-right"></i> Dashboard</a>
                         </li>
-                        <li class="active">
+                        <li>
                             <a href="calendar.html"><i class="icon-chevron-right"></i> Calendar</a>
                         </li>
                         <li>
-                            <a href="stats.html"><i class="icon-chevron-right"></i> Statistics (Charts)</a>
+                            <a href="../stats.html"><i class="icon-chevron-right"></i> Statistics (Charts)</a>
                         </li>
                         <li>
                             <a href="form.html"><i class="icon-chevron-right"></i> Forms</a>
                         </li>
                         <li>
-                            <a href="tables.html"><i class="icon-chevron-right"></i> Tables</a>
-                        </li>
-                        <li>
                             <a href="buttons.html"><i class="icon-chevron-right"></i> Buttons & Icons</a>
                         </li>
-                        <li>
+                        <li class="active">
                             <a href="editors.html"><i class="icon-chevron-right"></i> WYSIWYG Editors</a>
                         </li>
                         <li>
-                            <a href="interface.html"><i class="icon-chevron-right"></i> UI & Interface</a>
+                            <a href="../interface.html"><i class="icon-chevron-right"></i> UI & Interface</a>
                         </li>
                         <li>
                             <a href="#"><span class="badge badge-success pull-right">731</span> Orders</a>
@@ -180,176 +177,151 @@
                     </ul>
                 </div>
                 <!--/span-->
-                <div class="span9" id="content">
-                    <div class="row-fluid">
-                        <!-- block -->
-                        <div class="block">
-                            <div class="navbar navbar-inner block-header">
-                                <div class="muted pull-left">Calendar</div>
-                                <div class="pull-right"><span class="badge badge-warning">View More</span>
+                
+                <div class="span10">
+                	<div class="row-fluid">
 
-                                </div>
-                            </div>
-                            <div class="block-content collapse in">
-                                <div class="span2">
-                                    <div id='external-events'>
-                                    <h4>Draggable Events</h4>
-                                    <div class='external-event'>My Event 1</div>
-                                    <div class='external-event'>My Event 2</div>
-                                    <div class='external-event'>My Event 3</div>
-                                    <div class='external-event'>My Event 4</div>
-                                    <div class='external-event'>My Event 5</div>
-                                    <div class='external-event'>My Event 6</div>
-                                    <div class='external-event'>My Event 7</div>
-                                    <div class='external-event'>My Event 8</div>
-                                    <div class='external-event'>My Event 9</div>
-                                    <div class='external-event'>My Event 10</div>
-                                    <div class='external-event'>My Event 11</div>
-                                    <div class='external-event'>My Event 12</div>
-                                    <div class='external-event'>My Event 13</div>
-                                    <div class='external-event'>My Event 14</div>
-                                    <div class='external-event'>My Event 15</div>
-                                    <p>
-                                    <input type='checkbox' id='drop-remove' /> <label for='drop-remove'>remove after drop</label>
-                                    </p>
-                                    </div>
 
-                                </div>
-                                <div class="span10">
-                                    <div id='calendar'></div>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- /block -->
-                    </div>
+		                <div class="span12" id="content">
+		                    <div class="row-fluid">
+		                        <!-- block -->
+		                        <div class="block">
+		                            <div class="navbar navbar-inner block-header">
+		                                <div class="muted pull-left">CKEditor Standard</div>
+		                            </div>
+		                            <div class="block-content collapse in">
+		                               <textarea id="ckeditor_standard"></textarea>
+		                            </div>
+		                        </div>
+		                        <!-- /block -->
+		                    </div>
+		                </div>
+
+		                <div class="span12" id="content">
+		                    <div class="row-fluid">
+		                        <!-- block -->
+		                        <div class="block">
+		                            <div class="navbar navbar-inner block-header">
+		                                <div class="muted pull-left">CKEditor Full</div>
+		                            </div>
+		                            <div class="block-content collapse in">
+		                               <textarea id="ckeditor_full"></textarea>
+		                            </div>
+		                        </div>
+		                        <!-- /block -->
+		                    </div>
+		                </div>
+
+		                <div class="span12" id="content">
+		                    <div class="row-fluid">
+		                        <!-- block -->
+		                        <div class="block">
+		                            <div class="navbar navbar-inner block-header">
+		                                <div class="muted pull-left">TinyMCE Basic</div>
+		                            </div>
+		                            <div class="block-content collapse in">
+		                               <textarea id="tinymce_basic"></textarea>
+		                            </div>
+		                        </div>
+		                        <!-- /block -->
+		                    </div>
+		                </div>
+
+		                <div class="span12" id="content">
+		                    <div class="row-fluid">
+		                        <!-- block -->
+		                        <div class="block">
+		                            <div class="navbar navbar-inner block-header">
+		                                <div class="muted pull-left">TinyMCE Full</div>
+		                            </div>
+		                            <div class="block-content collapse in">
+		                               <textarea id="tinymce_full"></textarea>
+		                            </div>
+		                        </div>
+		                        <!-- /block -->
+		                    </div>
+		                </div>
+
+		                <div class="span12" id="content">
+		                    <div class="row-fluid">
+		                        <!-- block -->
+		                        <div class="block">
+		                            <div class="navbar navbar-inner block-header">
+		                                <div class="muted pull-left">Bootstrap WYSIWYG</div>
+		                            </div>
+		                            <div class="block-content collapse in">
+		                               <textarea id="bootstrap-editor" placeholder="Enter text ..." style="width:98%;height:200px;"></textarea>
+		                            </div>
+		                        </div>
+		                        <!-- /block -->
+		                    </div>
+		                </div>
+
+                	</div>
                 </div>
+
             </div>
             <hr>
             <footer>
                 <p>&copy; Vincent Gabriel 2013</p>
             </footer>
         </div>
-        <style>
-        #external-events {
-            float: left;
-            width: 150px;
-            padding: 0 10px;
-            border: 1px solid #ccc;
-            background: #eee;
-            text-align: left;
-            }
-            
-        #external-events h4 {
-            font-size: 16px;
-            margin-top: 0;
-            padding-top: 1em;
-            }
-            
-        .external-event { /* try to mimick the look of a real event */
-            margin: 10px 0;
-            padding: 2px 4px;
-            background: #3366CC;
-            color: #fff;
-            font-size: .85em;
-            cursor: pointer;
-            z-index: 99999999;
-            }
-            
-        #external-events p {
-            margin: 1.5em 0;
-            font-size: 11px;
-            color: #666;
-            }
-            
-        #external-events p input {
-            margin: 0;
-            vertical-align: middle;
-            }
 
-        </style>
         <!--/.fluid-container-->
-        <script src="vendors/jquery-1.9.1.min.js"></script>
-        <script src="vendors/jquery-ui-1.10.3.js"></script>
-        <script src="bootstrap/js/bootstrap.min.js"></script>
-        <script src="vendors/fullcalendar/fullcalendar.js"></script>
-        <script src="vendors/fullcalendar/gcal.js"></script>
-        <script src="assets/scripts.js"></script>
+        <script src="../vendors/bootstrap-wysihtml5/lib/js/wysihtml5-0.3.0.js"></script>
+        <script src="../vendors/jquery-1.9.1.min.js"></script>
+        <script src="../bootstrap/js/bootstrap.min.js"></script>
+		<script src="../vendors/bootstrap-wysihtml5/src/bootstrap-wysihtml5.js"></script>
+
+		<script src="../vendors/ckeditor/ckeditor.js"></script>
+		<script src="../vendors/ckeditor/adapters/jquery.js"></script>
+
+		<script type="text/javascript" src="../vendors/tinymce/js/tinymce/tinymce.min.js"></script>
+
+        <script src="../assets/scripts.js"></script>
         <script>
         $(function() {
-            // Easy pie charts
-            var calendar = $('#calendar').fullCalendar({
-			header: {
-				left: 'prev,next',
-				center: 'title',
-				right: 'month,basicWeek,basicDay'
-			},
-            selectable: true,
-            selectHelper: true,
-            select: function(start, end, allDay) {
-                var title = prompt('Event Title:');
-                if (title) {
-                    calendar.fullCalendar('renderEvent',
-                        {
-                            title: title,
-                            start: start,
-                            end: end,
-                            allDay: allDay
-                        },
-                        true // make the event "stick"
-                    );
-                }
-                calendar.fullCalendar('unselect');
-            },
-            droppable: true, // this allows things to be dropped onto the calendar !!!
-            drop: function(date, allDay) { // this function is called when something is dropped
-            
-                // retrieve the dropped element's stored Event Object
-                var originalEventObject = $(this).data('eventObject');
-                
-                // we need to copy it, so that multiple events don't have a reference to the same object
-                var copiedEventObject = $.extend({}, originalEventObject);
-                
-                // assign it the date that was reported
-                copiedEventObject.start = date;
-                copiedEventObject.allDay = allDay;
-                
-                // render the event on the calendar
-                // the last `true` argument determines if the event "sticks" (http://arshaw.com/fullcalendar/docs/event_rendering/renderEvent/)
-                $('#calendar').fullCalendar('renderEvent', copiedEventObject, true);
-                
-                // is the "remove after drop" checkbox checked?
-                if ($('#drop-remove').is(':checked')) {
-                    // if so, remove the element from the "Draggable Events" list
-                    $(this).remove();
-                }
-                
-            },
-			editable: true,
-			// US Holidays
-			events: 'http://www.google.com/calendar/feeds/usa__en%40holiday.calendar.google.com/public/basic'
-			
-			});
+            // Bootstrap
+            $('#bootstrap-editor').wysihtml5();
+
+            // Ckeditor standard
+            $( 'textarea#ckeditor_standard' ).ckeditor({width:'98%', height: '150px', toolbar: [
+				{ name: 'document', items: [ 'Source', '-', 'NewPage', 'Preview', '-', 'Templates' ] },	// Defines toolbar group with name (used to create voice label) and items in 3 subgroups.
+				[ 'Cut', 'Copy', 'Paste', 'PasteText', 'PasteFromWord', '-', 'Undo', 'Redo' ],			// Defines toolbar group without name.
+				{ name: 'basicstyles', items: [ 'Bold', 'Italic' ] }
+			]});
+            $( 'textarea#ckeditor_full' ).ckeditor({width:'98%', height: '150px'});
         });
 
-        $('#external-events div.external-event').each(function() {
-        
-            // create an Event Object (http://arshaw.com/fullcalendar/docs/event_data/Event_Object/)
-            // it doesn't need to have a start or end
-            var eventObject = {
-                title: $.trim($(this).text()) // use the element's text as the event title
-            };
-            
-            // store the Event Object in the DOM element so we can get to it later
-            $(this).data('eventObject', eventObject);
-            
-            // make the event draggable using jQuery UI
-            $(this).draggable({
-                zIndex: 999999999,
-                revert: true,      // will cause the event to go back to its
-                revertDuration: 0  //  original position after the drag
-            });
-            
-        });
+        // Tiny MCE
+        tinymce.init({
+		    selector: "#tinymce_basic",
+		    plugins: [
+		        "advlist autolink lists link image charmap print preview anchor",
+		        "searchreplace visualblocks code fullscreen",
+		        "insertdatetime media table contextmenu paste"
+		    ],
+		    toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image"
+		});
+
+		// Tiny MCE
+        tinymce.init({
+		    selector: "#tinymce_full",
+		    plugins: [
+		        "advlist autolink lists link image charmap print preview hr anchor pagebreak",
+		        "searchreplace wordcount visualblocks visualchars code fullscreen",
+		        "insertdatetime media nonbreaking save table contextmenu directionality",
+		        "emoticons template paste textcolor"
+		    ],
+		    toolbar1: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image",
+		    toolbar2: "print preview media | forecolor backcolor emoticons",
+		    image_advtab: true,
+		    templates: [
+		        {title: 'Test template 1', content: 'Test 1'},
+		        {title: 'Test template 2', content: 'Test 2'}
+		    ]
+		});
+
         </script>
     </body>
 

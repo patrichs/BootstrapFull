@@ -9,7 +9,7 @@ class dbClass
     private $dbName, $dbUser, $dbPass, $dbHost, $connection;
 
     /* Variabler som hanterar användarkonton */
-    private $hash, $username, $password, $email, $validate;
+    private $hash, $username, $password, $email, $validate, $userid;
 
     /* Variabler som hanterar sessions */
     private $sessionVar, $sessionVal;
@@ -118,7 +118,7 @@ class dbClass
         $data = array("username" => $this->username);
 
         $exec = $this->connection->prepare("
-        SELECT username, hash
+        SELECT userid, username, hash
         FROM `users`
         WHERE username = :username
         ");
@@ -142,6 +142,7 @@ class dbClass
         while ($row = $exec->fetch(PDO::FETCH_ASSOC))
         {
             $this->hash = $row['hash'];
+            $this->userid = $row["userid"];
         }
 
         $this->validate = validate_password($this->password, $this->hash);
@@ -150,6 +151,7 @@ class dbClass
             session_start();
             $this->setSession("userAuthenticated", "Yes");
             $this->setSession("userLoggedIn", $this->username);
+            $this->setSession("userIdLoggedIn", $this->userid);
             $this->messages = "Inloggningen lyckades.";
         }
         else
@@ -223,7 +225,7 @@ class dbClass
         $exec = $this->connection->prepare("
         SELECT username, hash
         FROM `users`
-        WHERE username = :username
+        WHERE userid = :username
         ");
 
         try
@@ -256,7 +258,7 @@ class dbClass
             $exec = $this->connection->prepare("
             UPDATE `users`
             SET hash = :hash
-            WHERE username = :username
+            WHERE userid = :username
             ");
             try
             {
@@ -268,7 +270,7 @@ class dbClass
                 return false;
             }
 
-            $this->messages = "Registreringen lyckades!";
+            $this->messages = "The password change was sucessful!";
             return true;
         }
         else
@@ -276,5 +278,78 @@ class dbClass
             $this->errors = "The old password didn't match the one in our database. Did you write it correctly? Pls 2 try again.";
             return false;
         }
+    }
+
+    public function returnAllUsers()
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            return false;
+        }
+
+        /* Get all users */
+
+        $exec = $this->connection->prepare("
+        SELECT *
+        FROM `users`");
+
+        try
+        {
+            $exec->execute();
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            return false;
+        }
+
+        $getArray = array();
+
+        while ($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $getArray["amountOfRows"][] = array("userid" => $row["userid"],
+                "username" => $row["username"],
+                "email" => $row["email"],
+            );
+        }
+
+        $amountOfUsers = $exec->rowCount();
+
+        $getArray["amountOfUsers"] = $amountOfUsers;
+
+        return json_encode($getArray);
+    }
+
+    public function changeUserData($userid, $username, $password, $email)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            return false;
+        }
+
+        $data = array("username" => $username,
+            "hash" => create_hash($password),
+            "email" => $email,
+            "userid" => $userid);
+
+        $exec = $this->connection->prepare("
+        UPDATE `users`
+        SET username = :username, hash = :hash, email = :email
+        WHERE userid = :userid
+        ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = "User password changed successfully!";
+        return true;
     }
 }
