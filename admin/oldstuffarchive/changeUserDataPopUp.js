@@ -32,16 +32,16 @@ $(document).ready(function() {
                     function(data){
                         if (data.isSuccess === 1)
                         {
-                            $.msgbox(data.replyMessage, {type: "success"});
+                            $.msgGrowl({type: "success", title: "Success", text: data.replyMessage})
                         }
                         else
                         {
-                            $.msgbox("sum4thing happen bad: " + data.replyMessage, {type: "error"});
+                            $.msgGrowl({type: "error", title: "Error", text: data.replyMessage})
                         }
                     }, "json");
 
             } else {
-                $.msgbox("pls why cancel?!", {type: "error"});
+                $.msgGrowl({type: "warning", title: "Action Cancelled", text: data.replyMessage})
             }
         });
     });

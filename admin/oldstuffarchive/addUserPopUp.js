@@ -7,7 +7,7 @@ $(document).ready(function() {
             inputs  : [
                 {type: "text", label: "Username: ", value: "", required: true},
                 {type: "password", label: "Password: ", value: "", required: true},
-                {type: "text", label: "E-mail: ", value: "", required: true},
+                {type: "text", label: "E-mail: ", value: "", required: true}
             ],
             buttons : [
                 {type: "submit", value: "Add"},
@@ -30,16 +30,16 @@ $(document).ready(function() {
                     function(data){
                         if (data.isSuccess === 1)
                         {
-                            $.msgbox(data.replyMessage, {type: "success"});
+                            $.msgGrowl({type: "success", title: "Success", text: data.replyMessage})
                         }
                         else
                         {
-                            $.msgbox("Error: " + data.replyMessage, {type: "error"});
+                            $.msgGrowl({type: "error", title: "Error", text: data.replyMessage})
                         }
                     }, "json");
 
             } else {
-                $.msgbox("Action cancelled. No changes were made.", {type: "error"});
+                $.msgGrowl({type: "warning", title: "Action Cancelled", text: "No data was changed or added."})
             }
         });
     });

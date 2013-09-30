@@ -7,9 +7,8 @@
 <!--<script src="vendors/jquery-1.9.1.min.js"></script>-->
 <script src="assets/msgbox/jquery.min.js"
 <script src="bootstrap/js/bootstrap.min.js"></script>
-<script src="index.js"></script>
 <script src="assets/msgbox/jquery.msgbox.min.js"></script>
-<script src="changeUserDataPopUp.js"></script>
-<script src="addUserPopUp.js"></script>
+<script src="assets/msgGrowl/js/msgGrowl.js"></script>
+<script src="index.js"></script>
 </body>
 </html>

@@ -28,7 +28,7 @@ include("header.php");
                 </div>
             </div>
             <!-- /block -->
-            <a href="#" class="btn btn-primary btn-large btn-add-user">Add a user</a>
+            <a href="#" class="btn btn-primary btn-small btn-add-user">Add a user</a>
         </div>
     </div>
 <?php

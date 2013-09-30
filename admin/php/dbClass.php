@@ -381,4 +381,38 @@ class dbClass
             return true;
         }
     }
+
+    public function adminDeleteUser($userId)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Not database pls.";
+            return false;
+        }
+
+        if (!isset($userId))
+        {
+            $this->errors = "No user id was supplied during the delete operation.";
+            return false;
+        }
+
+        $data = array("userId" => $userId);
+
+        $exec = $this->connection->prepare("
+                DELETE FROM `users`
+                WHERE userid = :userId
+                ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = "User deleted successfully!";
+        return true;
+    }
 }

@@ -10,6 +10,7 @@
     <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
     <link href="assets/styles.css" rel="stylesheet" media="screen">
     <link href="assets/msgbox/jquery.msgbox.css" rel="stylesheet">
+    <link href="assets/msgGrowl/css/msgGrowl.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
