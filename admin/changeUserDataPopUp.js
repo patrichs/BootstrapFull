@@ -1,13 +1,15 @@
-$(function () {
-    $('.msgbox-prompt-user-change').click(function (e) {
+$(document).ready(function() {
+    //$(document).on("click", ".btn-users", function() {
+    $(".btn-users").live("click", function() {
+        var splitIdString = this.id.split(",");
 
-        $.msgbox("<p>Change the appropriate field and then click 'Save' to save all the changes.</p>", {
+        $.msgbox("<p>Change the appropriate field and then click 'Save' to save all the changes.<br>Leave the password field blank to not change the password.</p>", {
             type    : "prompt",
             inputs  : [
-                {type: "text", label: "Username: ", value: "", required: true},
-                {type: "text", label: "Password: ", value: "", required: true},
-                {type: "text", label: "E-mail: ", value: "", required: true},
-                {type: "text", label: "User ID (DO NOT CHANGE) : ", value: "", required: true}
+                {type: "text", label: "Username: ", value: splitIdString[1], required: true},
+                {type: "password", label: "Password: ", value: "", required: false},
+                {type: "text", label: "E-mail: ", value: splitIdString[2], required: true},
+                {type: "text", label: "User ID (DO NOT CHANGE) : ", value: splitIdString[0] , required: true}
             ],
             buttons : [
                 {type: "submit", value: "Save"},
@@ -31,7 +33,6 @@ $(function () {
                         if (data.isSuccess === 1)
                         {
                             $.msgbox(data.replyMessage, {type: "success"});
-                            ajaxCallFunction();
                         }
                         else
                         {

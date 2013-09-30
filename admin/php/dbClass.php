@@ -321,7 +321,7 @@ class dbClass
         return json_encode($getArray);
     }
 
-    public function changeUserData($userid, $username, $password, $email)
+    public function changeUserData($userid, $username, $email, $password)
     {
         if (!$this->connection)
         {
@@ -329,27 +329,56 @@ class dbClass
             return false;
         }
 
-        $data = array("username" => $username,
-            "hash" => create_hash($password),
-            "email" => $email,
-            "userid" => $userid);
+        $pwLength = strlen($password);
 
-        $exec = $this->connection->prepare("
-        UPDATE `users`
-        SET username = :username, hash = :hash, email = :email
-        WHERE userid = :userid
-        ");
-        try
+        if ($pwLength = 0)
         {
-            $exec->execute($data);
-        }
-        catch(PDOException $e)
-        {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
-            return false;
-        }
+            $data = array("username" => $username,
+                "email" => $email,
+                "userid" => $userid);
 
-        $this->messages = "User password changed successfully!";
-        return true;
+            $exec = $this->connection->prepare("
+                UPDATE `users`
+                SET username = :username, email = :email
+                WHERE userid = :userid
+                ");
+            try
+            {
+                $exec->execute($data);
+            }
+            catch(PDOException $e)
+            {
+                $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+                return false;
+            }
+
+            $this->messages = "User updated successfully.";
+            return true;
+        }
+        else
+        {
+            $data = array("username" => $username,
+                "hash" => create_hash($password),
+                "email" => $email,
+                "userid" => $userid);
+
+            $exec = $this->connection->prepare("
+                UPDATE `users`
+                SET username = :username, hash = :hash, email = :email
+                WHERE userid = :userid
+                ");
+            try
+            {
+                $exec->execute($data);
+            }
+            catch(PDOException $e)
+            {
+                $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+                return false;
+            }
+
+            $this->messages = "User updated successfully!";
+            return true;
+        }
     }
 }

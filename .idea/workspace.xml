@@ -16,16 +16,17 @@
     <file path="/register.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406644969" ignored="false" />
     <file path="/returnAuthInfo.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380442432306" ignored="false" />
     <file path="/index.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489194752" ignored="false" />
-    <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380493248495" ignored="false" />
-    <file path="/footer.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380492426165" ignored="false" />
-    <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380492978612" ignored="false" />
+    <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380503146968" ignored="false" />
+    <file path="/footer.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380504559280" ignored="false" />
+    <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380504068452" ignored="false" />
     <file path="/returnAllUsers.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380488823076" ignored="false" />
-    <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380491416804" ignored="false" />
-    <file path="/header.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380492390221" ignored="false" />
+    <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380503889886" ignored="false" />
+    <file path="/header.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380501759963" ignored="false" />
     <file path="/logoutUser.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489448928" ignored="false" />
-    <file path="/changeUserDataPopUp.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380493093656" ignored="false" />
-    <file path="/changeUserData.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380491699436" ignored="false" />
+    <file path="/changeUserDataPopUp.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380503339515" ignored="false" />
+    <file path="/changeUserData.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380503762778" ignored="false" />
     <file path="/openUserOptions.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380492830355" ignored="false" />
+    <file path="/addUserPopUp.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380504387027" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,25 +54,43 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="14" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-19.615385">
+            <state line="27" column="22" selection-start="996" selection-end="996" vertical-scroll-proportion="-17.653847">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.js">
+      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="27" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+            <state line="4" column="6" selection-start="117" selection-end="117" vertical-scroll-proportion="0.08222491">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="openUserOptions.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/php/openUserOptions.php">
+      <file leaf-file-name="addUserPopUp.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/addUserPopUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="49" selection-start="803" selection-end="803" vertical-scroll-proportion="0.43168077">
+            <state line="21" column="41" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeRegister.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/register.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="235" selection-end="365" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -80,7 +99,7 @@
       <file leaf-file-name="changeUserDataPopUp.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/changeUserDataPopUp.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
+            <state line="22" column="42" selection-start="0" selection-end="1941" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,45 +108,7 @@
       <file leaf-file-name="changeUserData.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="1" selection-start="453" selection-end="453" vertical-scroll-proportion="-12.423077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/footer.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="546" selection-end="546" vertical-scroll-proportion="-9.807693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.msgBox.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="183" column="56" selection-start="7416" selection-end="7416" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="60" selection-start="595" selection-end="595" vertical-scroll-proportion="45.692307">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="login.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="25" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+            <state line="22" column="4" selection-start="515" selection-end="515" vertical-scroll-proportion="-14.384615">
               <folding />
             </state>
           </provider>
@@ -136,16 +117,35 @@
       <file leaf-file-name="dbClass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="333" column="30" selection-start="9661" selection-end="9661" vertical-scroll-proportion="-14.153846">
+            <state line="334" column="9" selection-start="9614" selection-end="9614" vertical-scroll-proportion="-9.576923">
               <folding>
-                <marker date="1380491704895" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-                <marker date="1380491704895" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
-                <marker date="1380491704895" expanded="true" signature="3638:3723" placeholder="SELECT useri..users..." />
-                <marker date="1380491704895" expanded="true" signature="6631:6706" placeholder="SELECT usern..users..." />
-                <marker date="1380491704895" expanded="true" signature="7562:7642" placeholder="UPDATE `user..." />
-                <marker date="1380491704895" expanded="true" signature="8559:8588" placeholder="SELECT * FRO..users..." />
-                <marker date="1380491704895" expanded="true" signature="9750:9858" placeholder="UPDATE `user..." />
+                <marker date="1380503891031" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
+                <marker date="1380503891031" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
+                <marker date="1380503891031" expanded="true" signature="3638:3723" placeholder="SELECT useri..users..." />
+                <marker date="1380503891031" expanded="true" signature="6631:6706" placeholder="SELECT usern..users..." />
+                <marker date="1380503891031" expanded="true" signature="7562:7642" placeholder="UPDATE `user..." />
+                <marker date="1380503891031" expanded="true" signature="8559:8588" placeholder="SELECT * FRO..users..." />
+                <marker date="1380503891031" expanded="true" signature="9805:9915" placeholder="UPDATE `user..." />
+                <marker date="1380503891031" expanded="true" signature="10593:10717" placeholder="UPDATE `user..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeUserPassword.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/changeUserPassword.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="makeAuth.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/makeAuth.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="50" selection-end="94" vertical-scroll-proportion="-2.6153846">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -168,22 +168,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/profile.html" />
-        <option value="$PROJECT_DIR$/admin/oldhtml/profile.html" />
         <option value="$PROJECT_DIR$/admin/index.html" />
         <option value="$PROJECT_DIR$/admin/php/returnAllUsers.php" />
         <option value="$PROJECT_DIR$/admin/oldhtml/index.html" />
         <option value="$PROJECT_DIR$/admin/php/logoutUser.php" />
         <option value="$PROJECT_DIR$/admin/login.js" />
-        <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
-        <option value="$PROJECT_DIR$/admin/php/changeUserData.php" />
-        <option value="$PROJECT_DIR$/admin/header.php" />
-        <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js" />
         <option value="$PROJECT_DIR$/admin/php/openUserOptions.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/admin/footer.php" />
-        <option value="$PROJECT_DIR$/admin/changeUserDataPopUp.js" />
+        <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js" />
+        <option value="$PROJECT_DIR$/admin/header.php" />
+        <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgbox.css" />
         <option value="$PROJECT_DIR$/admin/index.js" />
+        <option value="$PROJECT_DIR$/admin/changeUserDataPopUp.js" />
+        <option value="$PROJECT_DIR$/admin/php/changeUserData.php" />
+        <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/addUserPopUp.js" />
+        <option value="$PROJECT_DIR$/admin/footer.php" />
       </list>
     </option>
   </component>
@@ -254,6 +254,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -417,6 +435,9 @@
     </servers>
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\BootstrapFull\admin\vendors" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\BootstrapFull\admin\assets\msgbox" />
       <recent name="C:\xampp\htdocs\BootstrapFull\admin\assets\msgbox\images" />
@@ -562,124 +583,123 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/oldhtml/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="268" column="61" selection-start="14169" selection-end="14169" vertical-scroll-proportion="-11.653846">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/logoutUser.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="123" selection-end="123" vertical-scroll-proportion="-5.230769">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/login.html">
+    <entry file="file://$PROJECT_DIR$/admin/assets/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/returnAllUsers.php">
+    <entry file="file://$PROJECT_DIR$/admin/vendors/jquery.min.map">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="39" selection-start="308" selection-end="308" vertical-scroll-proportion="-11.769231">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/changeUserPassword.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="207" vertical-scroll-proportion="-0.65384614">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/returnAuthInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="486" selection-end="821" vertical-scroll-proportion="-18.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="333" column="30" selection-start="9661" selection-end="9661" vertical-scroll-proportion="-14.153846">
-          <folding>
-            <marker date="1380491704895" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-            <marker date="1380491704895" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
-            <marker date="1380491704895" expanded="true" signature="3638:3723" placeholder="SELECT useri..users..." />
-            <marker date="1380491704895" expanded="true" signature="6631:6706" placeholder="SELECT usern..users..." />
-            <marker date="1380491704895" expanded="true" signature="7562:7642" placeholder="UPDATE `user..." />
-            <marker date="1380491704895" expanded="true" signature="8559:8588" placeholder="SELECT * FRO..users..." />
-            <marker date="1380491704895" expanded="true" signature="9750:9858" placeholder="UPDATE `user..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="1" selection-start="453" selection-end="453" vertical-scroll-proportion="-12.423077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="25" selection-start="692" selection-end="692" vertical-scroll-proportion="0.0">
+        <state line="0" column="108" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="60" selection-start="595" selection-end="595" vertical-scroll-proportion="45.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="183" column="56" selection-start="7416" selection-end="7416" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="546" selection-end="546" vertical-scroll-proportion="-9.807693">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/changeUserDataPopUp.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="0" selection-start="1041" selection-end="1041" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="14" selection-start="1058" selection-end="1058" vertical-scroll-proportion="-19.615385">
+        <state line="21" column="30" selection-start="873" selection-end="873" vertical-scroll-proportion="-13.730769">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="27" selection-start="594" selection-end="594" vertical-scroll-proportion="0.0">
+        <state line="23" column="40" selection-start="566" selection-end="566" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/openUserOptions.php">
+    <entry file="file://$PROJECT_DIR$/admin/assets/msgbox/jquery.msgbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="49" selection-start="803" selection-end="803" vertical-scroll-proportion="0.43168077">
+        <state line="25" column="19" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/checkAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/makeAuth.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="50" selection-end="94" vertical-scroll-proportion="-2.6153846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/changeUserPassword.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="4" selection-start="515" selection-end="515" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="334" column="9" selection-start="9614" selection-end="9614" vertical-scroll-proportion="-9.576923">
+          <folding>
+            <marker date="1380503891031" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
+            <marker date="1380503891031" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
+            <marker date="1380503891031" expanded="true" signature="3638:3723" placeholder="SELECT useri..users..." />
+            <marker date="1380503891031" expanded="true" signature="6631:6706" placeholder="SELECT usern..users..." />
+            <marker date="1380503891031" expanded="true" signature="7562:7642" placeholder="UPDATE `user..." />
+            <marker date="1380503891031" expanded="true" signature="8559:8588" placeholder="SELECT * FRO..users..." />
+            <marker date="1380503891031" expanded="true" signature="9805:9915" placeholder="UPDATE `user..." />
+            <marker date="1380503891031" expanded="true" signature="10593:10717" placeholder="UPDATE `user..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/changeUserDataPopUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="42" selection-start="0" selection-end="1941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="235" selection-end="365" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="22" selection-start="996" selection-end="996" vertical-scroll-proportion="-17.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/addUserPopUp.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="41" selection-start="876" selection-end="876" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="6" selection-start="117" selection-end="117" vertical-scroll-proportion="0.08222491">
           <folding />
         </state>
       </provider>

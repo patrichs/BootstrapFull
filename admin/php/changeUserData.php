@@ -1,10 +1,12 @@
 <?php
 include ("dbClass.php");
 
-$userId = $_POST["userid"];
-$newUsername = $_POST["newUsername"];
-$newEmail = $_POST["newEmail"];
-$newPassword = $_POST["newPassword"];
+$getJson = json_decode($_POST["obj"], true);
+
+$userId = $getJson["objUserId"];
+$newUsername = $getJson["objUsername"];
+$newEmail = $getJson["objEmail"];
+$newPassword = $getJson["objPassword"];
 
 $changeUserData = new dbClass();
 
@@ -24,3 +26,5 @@ else
     $array["isSuccess"] = 1;
     $array["replyMessage"] = $changeUserData->messages;
 }
+
+echo json_encode($array);

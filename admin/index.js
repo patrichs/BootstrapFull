@@ -31,7 +31,8 @@ $(document).ready(function() {
                     output += "<td>" + data.amountOfRows[i].userid + "</td>";
                     output += "<td>" + data.amountOfRows[i].username + "</td>";
                     output += "<td>" + data.amountOfRows[i].email + "</td>";
-                    output += "<td>" + "<a href='javascript:;' class='btn btn-small btn-primary' id=" + data.amountOfRows[i].userid + ">Edit</a>" + "</td>";
+                    //lame hack but whatever works
+                    output += "<td>" + "<a href='#' class='btn btn-small btn-primary btn-users' id=" + data.amountOfRows[i].userid + "," + data.amountOfRows[i].username + "," + data.amountOfRows[i].email + ">Edit</a>" + "</td>";
                     output += "</tr>";
                 }
 

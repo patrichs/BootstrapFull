@@ -9,7 +9,7 @@
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
     <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
     <link href="assets/styles.css" rel="stylesheet" media="screen">
-    <link href="assets/msgbox/msgBoxLight.css" rel="stylesheet">
+    <link href="assets/msgbox/jquery.msgbox.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -25,7 +25,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </a>
-            <a class="brand" href="#">Admin Panel</a>
+            <a class="brand" href="#">Bootstrap Full</a>
             <div class="nav-collapse collapse">
                 <ul class="nav pull-right">
                     <li class="dropdown">
