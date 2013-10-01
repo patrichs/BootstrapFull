@@ -18,7 +18,7 @@
     <file path="/index.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489194752" ignored="false" />
     <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380581280824" ignored="false" />
     <file path="/footer.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380578805226" ignored="false" />
-    <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380557101608" ignored="false" />
+    <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380602008552" ignored="false" />
     <file path="/returnAllUsers.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380488823076" ignored="false" />
     <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380579854741" ignored="false" />
     <file path="/header.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380578842525" ignored="false" />
@@ -61,11 +61,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="footer.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="footer.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="7" selection-start="460" selection-end="460" vertical-scroll-proportion="0.2606132">
+            <state line="13" column="7" selection-start="460" selection-end="460" vertical-scroll-proportion="-8.5">
+              <folding>
+                <marker date="1380581558740" expanded="true" signature="12:109" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jquery.min.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/assets/msgbox/jquery.min.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="32" selection-start="2114" selection-end="2114" vertical-scroll-proportion="-30.076923">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="30" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.7393868">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stats.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/oldhtml/stats.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="145.15384">
+              <folding>
+                <marker date="1380478079299" expanded="false" signature="48018:48077" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -79,48 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changeUserPassword.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/changeUserPassword.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changeUserData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="672" vertical-scroll-proportion="-0.65384614">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbClass.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="405" column="9" selection-start="11684" selection-end="11684" vertical-scroll-proportion="-20.038462">
-              <folding>
-                <marker date="1380579962923" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-                <marker date="1380579962923" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
-                <marker date="1380579962923" expanded="true" signature="3638:3723" placeholder="SELECT useri..users..." />
-                <marker date="1380579962923" expanded="true" signature="6631:6706" placeholder="SELECT usern..users..." />
-                <marker date="1380579962923" expanded="true" signature="7562:7642" placeholder="UPDATE `user..." />
-                <marker date="1380579962923" expanded="true" signature="8559:8588" placeholder="SELECT * FRO..users..." />
-                <marker date="1380579962923" expanded="true" signature="9805:9915" placeholder="UPDATE `user..." />
-                <marker date="1380579962923" expanded="true" signature="10593:10717" placeholder="UPDATE `user..." />
-                <marker date="1380579962923" expanded="true" signature="11584:11642" placeholder="DELETE FROM ..." />
-                <marker date="1380579962923" expanded="true" signature="11595:11642" placeholder="UPDATE `user..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="120" column="20" selection-start="4481" selection-end="4481" vertical-scroll-proportion="0.0">
+            <state line="116" column="97" selection-start="4401" selection-end="4401" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -170,14 +174,14 @@
         <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js" />
         <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgbox.css" />
         <option value="$PROJECT_DIR$/admin/php/changeUserData.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/admin/header.php" />
         <option value="$PROJECT_DIR$/admin/addUserPopUp.js" />
         <option value="$PROJECT_DIR$/admin/changeUserDataPopUp.js" />
         <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
         <option value="$PROJECT_DIR$/admin/php/deleteUserAccount.php" />
-        <option value="$PROJECT_DIR$/admin/index.js" />
         <option value="$PROJECT_DIR$/admin/footer.php" />
+        <option value="$PROJECT_DIR$/admin/index.js" />
+        <option value="$PROJECT_DIR$/admin/header.php" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
       </list>
     </option>
   </component>
@@ -248,6 +252,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vendors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -342,6 +364,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="BootstrapFull" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="msgbox" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -530,34 +574,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="22" selection-start="1184" selection-end="1184" vertical-scroll-proportion="-22.23077">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/msgGrowl/js/msgGrowl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="8" selection-start="587" selection-end="587" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/checkAuth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="1" selection-start="164" selection-end="164" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/changeUserPassword.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -569,16 +585,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="405" column="9" selection-start="11684" selection-end="11684" vertical-scroll-proportion="-20.038462">
           <folding>
-            <marker date="1380579962923" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-            <marker date="1380579962923" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
-            <marker date="1380579962923" expanded="true" signature="3638:3723" placeholder="SELECT useri..users..." />
-            <marker date="1380579962923" expanded="true" signature="6631:6706" placeholder="SELECT usern..users..." />
-            <marker date="1380579962923" expanded="true" signature="7562:7642" placeholder="UPDATE `user..." />
-            <marker date="1380579962923" expanded="true" signature="8559:8588" placeholder="SELECT * FRO..users..." />
-            <marker date="1380579962923" expanded="true" signature="9805:9915" placeholder="UPDATE `user..." />
-            <marker date="1380579962923" expanded="true" signature="10593:10717" placeholder="UPDATE `user..." />
-            <marker date="1380579962923" expanded="true" signature="11584:11642" placeholder="DELETE FROM ..." />
-            <marker date="1380579962923" expanded="true" signature="11595:11642" placeholder="UPDATE `user..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="SELECT usern..users..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="SELECT useri..users..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="SELECT usern..users..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="UPDATE `user..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..users..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="UPDATE `user..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="UPDATE `user..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1380579962923" expanded="true" signature="-1:-1" placeholder="UPDATE `user..." />
           </folding>
         </state>
       </provider>
@@ -625,13 +641,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="120" column="20" selection-start="4481" selection-end="4481" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/oldhtml/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="513" column="8" selection-start="73571" selection-end="73615" vertical-scroll-proportion="-335.42307">
@@ -646,9 +655,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/admin/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="46" column="32" selection-start="2114" selection-end="2114" vertical-scroll-proportion="-30.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="116" column="97" selection-start="4401" selection-end="4401" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/oldhtml/stats.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="145.15384">
+          <folding>
+            <marker date="1380478079299" expanded="false" signature="48018:48077" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/admin/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="460" selection-end="460" vertical-scroll-proportion="0.2606132">
+        <state line="13" column="7" selection-start="460" selection-end="460" vertical-scroll-proportion="-8.5">
+          <folding>
+            <marker date="1380581558740" expanded="true" signature="12:109" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/msgbox/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="30" selection-start="1597" selection-end="1597" vertical-scroll-proportion="0.7393868">
           <folding />
         </state>
       </provider>

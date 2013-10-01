@@ -119,7 +119,7 @@ $(document).ready(function() {
                     }, "json");
 
             } else {
-                $.msgGrowl({type: "warning", title: "Action Cancelled", text: data.replyMessage});
+                $.msgGrowl({type: "warning", title: "Action Cancelled", text: "User data was NOT changed."});
             }
         });
     });

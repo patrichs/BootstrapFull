@@ -15,7 +15,7 @@ include("header.php");
                     <table class="table table-striped">
                         <thead>
                         <tr>
-                            <th>#</th>
+                            <th>User ID</th>
                             <th>Username</th>
                             <th>E-mail</th>
                             <th>Options</th>
@@ -29,6 +29,19 @@ include("header.php");
             </div>
             <!-- /block -->
             <a href="#" class="btn btn-primary btn-small btn-add-user">Add a user</a>
+        </div>
+        <div class="span6">
+            <!-- block -->
+            <div class="block">
+                <div class="navbar navbar-inner block-header">
+                    <div class="muted pull-left">Users registered</div>
+                    <div class="pull-right"><span class="badge badge-info">Today</span>
+                    </div>
+                </div>
+                <div class="block-content collapse in">
+                    GRAPH HERE
+                </div>
+            </div>
         </div>
     </div>
 <?php
