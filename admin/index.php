@@ -44,6 +44,34 @@ include("header.php");
             </div>
         </div>
     </div>
+    <div class="row-fluid">
+        <div class="span6">
+            <!-- block -->
+            <div class="block">
+                <div class="navbar navbar-inner block-header">
+                    <div class="muted pull-left">Groups</div>
+                    <div class="pull-right"><span class="badge badge-info" id="amountOfGroups"></span>
+                    </div>
+                </div>
+                <div class="block-content collapse in">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th>Group ID</th>
+                            <th>Group name</th>
+                            <th>Options</th>
+                        </tr>
+                        </thead>
+                        <tbody id="groupstbody">
+
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!-- /block -->
+            <a href="#" class="btn btn-primary btn-small btn-add-group">Add a group</a>
+        </div>
+    </div>
 <?php
 include("footer.php");
 ?>

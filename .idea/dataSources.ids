@@ -23,6 +23,12 @@
     <schema name="" catalog="quickzter"/>
     <schema name="" catalog="test"/>
     <schema name="" catalog="webauth"/>
+    <table name="groups" schema="" catalog="bootstrapfull" type="TABLE">
+      <column name="groupid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="groupname" sqlType="VARCHAR" length="16" precision="0" nullable="false" jdbcType="12"/>
+      <primary-key name="PRIMARY" columns="groupid"/>
+      <index name="unique_groupid" unique="true" columns="groupid"/>
+    </table>
     <table name="logs" schema="" catalog="bootstrapfull" type="TABLE">
       <column name="logsid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="eventid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>

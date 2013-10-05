@@ -105,6 +105,58 @@ class dbClass
         return $exec;
     }
 
+    public function addGroup($groupName)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            return false;
+        }
+
+        /* Check if group name exists */
+        $data = array("groupname" => $groupName);
+
+        $exec = $this->connection->prepare("
+        SELECT groupname
+        FROM `groups`
+        WHERE groupname = :groupname
+        ");
+
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+        }
+
+        $checkRows = $exec->rowCount();
+
+        if ($checkRows > 0)
+        {
+            $this->errors = "Group name already exists. Please use another name.";
+            return false;
+        }
+
+        $exec = $this->connection->prepare("
+        INSERT INTO `groups` (groupname)
+        VALUE (:groupname)
+        ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = "The group was added successfully!";
+        return $exec;
+    }
+
     public function login($username, $password)
     {
         if (!$this->connection)
@@ -321,6 +373,46 @@ class dbClass
         return json_encode($getArray);
     }
 
+    public function returnAllGroups()
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            return false;
+        }
+
+        /* Get all users */
+
+        $exec = $this->connection->prepare("
+        SELECT *
+        FROM `groups`");
+
+        try
+        {
+            $exec->execute();
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            return false;
+        }
+
+        $getArray = array();
+
+        while ($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $getArray["amountOfRows"][] = array("groupid" => $row["groupid"],
+                "groupname" => $row["groupname"]
+            );
+        }
+
+        $amountOfGroups = $exec->rowCount();
+
+        $getArray["amountOfGroups"] = $amountOfGroups;
+
+        return json_encode($getArray);
+    }
+
     public function changeUserData($userid, $username, $email, $password)
     {
         if (!$this->connection)
@@ -413,6 +505,40 @@ class dbClass
         }
 
         $this->messages = "User deleted successfully!";
+        return true;
+    }
+
+    public function adminDeleteGroup($groupId)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Not database pls.";
+            return false;
+        }
+
+        if (!isset($groupId))
+        {
+            $this->errors = "No group id was supplied during the delete operation.";
+            return false;
+        }
+
+        $data = array("groupId" => $groupId);
+
+        $exec = $this->connection->prepare("
+                DELETE FROM `groups`
+                WHERE groupId = :groupId
+                ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = "Group deleted successfully!";
         return true;
     }
 }
