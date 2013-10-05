@@ -7,7 +7,7 @@
     <ignored path="BootstrapFull.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380348153761" ignored="false" />
-    <file path="/readme.md" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380347378676" ignored="false" />
+    <file path="/readme.md" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008985147" ignored="false" />
     <file path="/checkAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380375803528" ignored="false" />
     <file path="/login.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380405437455" ignored="false" />
     <file path="/login.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406654161" ignored="false" />
@@ -58,15 +58,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="22" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-6.3846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="makeRegister.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -85,10 +76,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="makeGroup.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="makeGroup.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/php/makeGroup.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="0.59810877">
+            <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="-19.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.07798165">
               <folding />
             </state>
           </provider>
@@ -180,7 +180,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/login.js" />
         <option value="$PROJECT_DIR$/admin/php/openUserOptions.php" />
         <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js" />
         <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgbox.css" />
@@ -196,6 +195,7 @@
         <option value="$PROJECT_DIR$/admin/index.js" />
         <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
         <option value="$PROJECT_DIR$/admin/php/makeGroup.php" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -504,7 +504,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -588,13 +588,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/oldhtml/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="513" column="8" selection-start="73571" selection-end="73615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/assets/scripts.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -711,7 +704,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/makeGroup.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="0.59810877">
+        <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="-19.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.07798165">
           <folding />
         </state>
       </provider>
