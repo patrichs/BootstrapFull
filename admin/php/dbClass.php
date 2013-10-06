@@ -85,11 +85,12 @@ class dbClass
         /* Namngivna platshållare, påbörja inläggning av nytt konto */
         $data = array("username" => $this->username,
             "hash" => $this->hash,
-            "email" => $this->email);
+            "email" => $this->email,
+            "dateregistered" => date('Y-m-d H:i:s'));
 
         $exec = $this->connection->prepare("
-        INSERT INTO `users` (username, hash, email)
-        VALUE (:username, :hash, :email)
+        INSERT INTO `users` (username, hash, email, dateregistered)
+        VALUE (:username, :hash, :email, :dateregistered)
         ");
         try
         {
@@ -205,6 +206,23 @@ class dbClass
             $this->setSession("userLoggedIn", $this->username);
             $this->setSession("userIdLoggedIn", $this->userid);
             $this->messages = "Inloggningen lyckades.";
+
+            $data = array("userid" => $this->userid,
+            "logindate" => date('Y-m-d H:i:s'));
+
+            $exec = $this->connection->prepare("
+            UPDATE `users`
+            SET lastlogin = :logindate
+            WHERE userid = :userid");
+
+            try
+            {
+                $exec->execute($data);
+            }
+            catch(PDOException $e)
+            {
+                $this->errors = "Could not insert lastlogin: " . $e->getMessage();
+            }
         }
         else
         {

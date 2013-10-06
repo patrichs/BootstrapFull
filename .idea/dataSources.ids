@@ -24,8 +24,8 @@
     <schema name="" catalog="test"/>
     <schema name="" catalog="webauth"/>
     <table name="groups" schema="" catalog="bootstrapfull" type="TABLE">
-      <column name="groupid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
-      <column name="groupname" sqlType="VARCHAR" length="16" precision="0" nullable="false" jdbcType="12"/>
+      <column name="groupid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
+      <column name="groupname" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
       <primary-key name="PRIMARY" columns="groupid"/>
       <index name="unique_groupid" unique="true" columns="groupid"/>
     </table>
@@ -40,6 +40,9 @@
       <column name="username" sqlType="VARCHAR" length="32" precision="0" nullable="false" jdbcType="12"/>
       <column name="hash" sqlType="VARCHAR" length="512" precision="0" nullable="false" jdbcType="12"/>
       <column name="email" sqlType="VARCHAR" length="60" precision="0" nullable="false" jdbcType="12"/>
+      <column name="groupid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="dateregistered" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93"/>
+      <column name="lastlogin" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93"/>
       <primary-key name="PRIMARY" columns="userid"/>
     </table>
     <table name="cds" schema="" catalog="cdcol" type="TABLE">
