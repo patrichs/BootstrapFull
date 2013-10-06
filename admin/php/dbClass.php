@@ -474,6 +474,36 @@ class dbClass
         }
     }
 
+    public function changeGroupData($groupid, $newgroupname)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            return false;
+        }
+
+        $data = array("groupid" => $groupid,
+            "groupname" => $newgroupname);
+
+        $exec = $this->connection->prepare("
+            UPDATE `groups`
+            SET groupname = :groupname
+            WHERE groupid = :groupid
+            ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong. Here is the technical details: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = "Group updated successfully!";
+        return true;
+    }
+
     public function adminDeleteUser($userId)
     {
         if (!$this->connection)

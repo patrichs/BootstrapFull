@@ -16,11 +16,11 @@
     <file path="/register.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406644969" ignored="false" />
     <file path="/returnAuthInfo.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380442432306" ignored="false" />
     <file path="/index.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489194752" ignored="false" />
-    <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008289653" ignored="false" />
+    <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047197357" ignored="false" />
     <file path="/footer.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380578805226" ignored="false" />
     <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381006691416" ignored="false" />
     <file path="/returnAllUsers.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380488823076" ignored="false" />
-    <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008662781" ignored="false" />
+    <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047709754" ignored="false" />
     <file path="/header.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380578842525" ignored="false" />
     <file path="/logoutUser.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489448928" ignored="false" />
     <file path="/changeUserDataPopUp.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380579577086" ignored="false" />
@@ -33,7 +33,8 @@
     <file path="/returnAllGroups.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381007506134" ignored="false" />
     <file path="/deleteGroup.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381007962497" ignored="false" />
     <file path="/makeGroup.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008757770" ignored="false" />
-    <file path="/a.dummy" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008429557" ignored="false" />
+    <file path="/a.dummy" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047487954" ignored="false" />
+    <file path="/changeGroupData.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047480836" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,10 +68,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/admin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="265" column="67" selection-start="9603" selection-end="9603" vertical-scroll-proportion="0.0">
+            <state line="220" column="0" selection-start="8050" selection-end="8050" vertical-scroll-proportion="3.3463302">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeGroupData.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/changeGroupData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="41" selection-start="472" selection-end="472" vertical-scroll-proportion="-14.384615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeUserData.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="1" selection-start="0" selection-end="672" vertical-scroll-proportion="-17.653847">
               <folding />
             </state>
           </provider>
@@ -85,10 +104,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="readme.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.07798165">
+            <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -124,40 +143,23 @@
       <file leaf-file-name="dbClass.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="153" column="9" selection-start="4505" selection-end="4505" vertical-scroll-proportion="-44.96154">
+            <state line="502" column="56" selection-start="14304" selection-end="14304" vertical-scroll-proportion="-92.03846">
               <folding>
-                <marker date="1381008681182" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-                <marker date="1381008681182" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
-                <marker date="1381008681182" expanded="true" signature="3594:3669" placeholder="SELECT group..groups..." />
-                <marker date="1381008681182" expanded="true" signature="4172:4231" placeholder="INSERT INTO ..." />
-                <marker date="1381008681182" expanded="true" signature="5011:5096" placeholder="SELECT useri..users..." />
-                <marker date="1381008681182" expanded="true" signature="8004:8079" placeholder="SELECT usern..users..." />
-                <marker date="1381008681182" expanded="true" signature="8935:9015" placeholder="UPDATE `user..." />
-                <marker date="1381008681182" expanded="true" signature="9932:9961" placeholder="SELECT * FRO..users..." />
-                <marker date="1381008681182" expanded="true" signature="10957:10987" placeholder="SELECT * FRO..groups..." />
-                <marker date="1381008681182" expanded="true" signature="12168:12278" placeholder="UPDATE `user..." />
-                <marker date="1381008681182" expanded="true" signature="12956:13080" placeholder="UPDATE `user..." />
-                <marker date="1381008681182" expanded="true" signature="13947:14005" placeholder="DELETE FROM ..." />
-                <marker date="1381008681182" expanded="true" signature="14779:14840" placeholder="DELETE FROM ..." />
+                <marker date="1381047740127" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
+                <marker date="1381047740127" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
+                <marker date="1381047740127" expanded="true" signature="3594:3669" placeholder="SELECT group..groups..." />
+                <marker date="1381047740127" expanded="true" signature="4172:4231" placeholder="INSERT INTO ..." />
+                <marker date="1381047740127" expanded="true" signature="5011:5096" placeholder="SELECT useri..users..." />
+                <marker date="1381047740127" expanded="true" signature="8004:8079" placeholder="SELECT usern..users..." />
+                <marker date="1381047740127" expanded="true" signature="8935:9015" placeholder="UPDATE `user..." />
+                <marker date="1381047740127" expanded="true" signature="9932:9961" placeholder="SELECT * FRO..users..." />
+                <marker date="1381047740127" expanded="true" signature="10957:10987" placeholder="SELECT * FRO..groups..." />
+                <marker date="1381047740127" expanded="true" signature="12168:12278" placeholder="UPDATE `user..." />
+                <marker date="1381047740127" expanded="true" signature="12956:13080" placeholder="UPDATE `user..." />
+                <marker date="1381047740127" expanded="true" signature="13891:13982" placeholder="UPDATE `grou..." />
+                <marker date="1381047740127" expanded="true" signature="14778:14836" placeholder="DELETE FROM ..." />
+                <marker date="1381047740127" expanded="true" signature="15610:15671" placeholder="DELETE FROM ..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="returnAllUsers.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/returnAllUsers.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="0" selection-end="323" vertical-scroll-proportion="-13.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="returnAuthInfo.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/returnAuthInfo.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -180,7 +182,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/php/openUserOptions.php" />
         <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js" />
         <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgbox.css" />
         <option value="$PROJECT_DIR$/admin/php/changeUserData.php" />
@@ -192,10 +193,11 @@
         <option value="$PROJECT_DIR$/admin/index.php" />
         <option value="$PROJECT_DIR$/admin/php/returnAllGroups.php" />
         <option value="$PROJECT_DIR$/admin/php/deleteGroup.php" />
-        <option value="$PROJECT_DIR$/admin/index.js" />
-        <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
         <option value="$PROJECT_DIR$/admin/php/makeGroup.php" />
         <option value="$PROJECT_DIR$/readme.md" />
+        <option value="$PROJECT_DIR$/admin/index.js" />
+        <option value="$PROJECT_DIR$/admin/php/changeGroupData.php" />
+        <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
       </list>
     </option>
   </component>
@@ -588,18 +590,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/assets/scripts.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="32" selection-start="2114" selection-end="2114" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/oldhtml/stats.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
@@ -653,13 +643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/returnAllGroups.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="325" selection-end="325" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/deleteGroup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="50" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.115385">
@@ -674,34 +657,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="265" column="67" selection-start="9603" selection-end="9603" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="153" column="9" selection-start="4505" selection-end="4505" vertical-scroll-proportion="-44.96154">
-          <folding>
-            <marker date="1381008681182" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-            <marker date="1381008681182" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
-            <marker date="1381008681182" expanded="true" signature="3594:3669" placeholder="SELECT group..groups..." />
-            <marker date="1381008681182" expanded="true" signature="4172:4231" placeholder="INSERT INTO ..." />
-            <marker date="1381008681182" expanded="true" signature="5011:5096" placeholder="SELECT useri..users..." />
-            <marker date="1381008681182" expanded="true" signature="8004:8079" placeholder="SELECT usern..users..." />
-            <marker date="1381008681182" expanded="true" signature="8935:9015" placeholder="UPDATE `user..." />
-            <marker date="1381008681182" expanded="true" signature="9932:9961" placeholder="SELECT * FRO..users..." />
-            <marker date="1381008681182" expanded="true" signature="10957:10987" placeholder="SELECT * FRO..groups..." />
-            <marker date="1381008681182" expanded="true" signature="12168:12278" placeholder="UPDATE `user..." />
-            <marker date="1381008681182" expanded="true" signature="12956:13080" placeholder="UPDATE `user..." />
-            <marker date="1381008681182" expanded="true" signature="13947:14005" placeholder="DELETE FROM ..." />
-            <marker date="1381008681182" expanded="true" signature="14779:14840" placeholder="DELETE FROM ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/makeGroup.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="-19.461538">
@@ -711,7 +666,57 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.07798165">
+        <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="1" selection-start="0" selection-end="672" vertical-scroll-proportion="-17.653847">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/changeGroupData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="41" selection-start="472" selection-end="472" vertical-scroll-proportion="-14.384615">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/returnAllGroups.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="13" selection-start="325" selection-end="325" vertical-scroll-proportion="-13.076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="502" column="56" selection-start="14304" selection-end="14304" vertical-scroll-proportion="-92.03846">
+          <folding>
+            <marker date="1381047740127" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
+            <marker date="1381047740127" expanded="true" signature="2783:2867" placeholder="INSERT INTO ..." />
+            <marker date="1381047740127" expanded="true" signature="3594:3669" placeholder="SELECT group..groups..." />
+            <marker date="1381047740127" expanded="true" signature="4172:4231" placeholder="INSERT INTO ..." />
+            <marker date="1381047740127" expanded="true" signature="5011:5096" placeholder="SELECT useri..users..." />
+            <marker date="1381047740127" expanded="true" signature="8004:8079" placeholder="SELECT usern..users..." />
+            <marker date="1381047740127" expanded="true" signature="8935:9015" placeholder="UPDATE `user..." />
+            <marker date="1381047740127" expanded="true" signature="9932:9961" placeholder="SELECT * FRO..users..." />
+            <marker date="1381047740127" expanded="true" signature="10957:10987" placeholder="SELECT * FRO..groups..." />
+            <marker date="1381047740127" expanded="true" signature="12168:12278" placeholder="UPDATE `user..." />
+            <marker date="1381047740127" expanded="true" signature="12956:13080" placeholder="UPDATE `user..." />
+            <marker date="1381047740127" expanded="true" signature="13891:13982" placeholder="UPDATE `grou..." />
+            <marker date="1381047740127" expanded="true" signature="14778:14836" placeholder="DELETE FROM ..." />
+            <marker date="1381047740127" expanded="true" signature="15610:15671" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="220" column="0" selection-start="8050" selection-end="8050" vertical-scroll-proportion="3.3463302">
           <folding />
         </state>
       </provider>

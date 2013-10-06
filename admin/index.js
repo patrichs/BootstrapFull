@@ -194,6 +194,50 @@ $(document).ready(function() {
         });
     });
 
+    /* Modifying a group */
+    $(".btn-edit-group").live("click", function() {
+        var splitIdString = this.id.split(",");
+
+        $.msgbox("<p>Change the appropriate field and then click 'Save' to save all the changes.</p>", {
+            type    : "prompt",
+            inputs  : [
+                {type: "text", label: "Group name: ", value: splitIdString[1], required: true},
+                {type: "text", label: "Group ID (DO NOT CHANGE) : ", value: splitIdString[0] , required: true}
+            ],
+            buttons : [
+                {type: "submit", value: "Save"},
+                {type: "cancel", value: "Cancel"}
+            ]
+        }, function(Groupname, Groupid) {
+            if (Groupname.length > 0) {
+
+                var obj =
+                {
+                    objGroupname: Groupname,
+                    objGroupId: Groupid
+                };
+
+                var convertJson = JSON.stringify(obj);
+
+                $.post("php/changeGroupData.php", { "obj": convertJson },
+                    function(data){
+                        if (data.isSuccess === 1)
+                        {
+                            $.msgGrowl({type: "success", title: "Success", text: data.replyMessage});
+                            updateGroupsTable();
+                        }
+                        else
+                        {
+                            $.msgGrowl({type: "error", title: "Error", text: data.replyMessage});
+                        }
+                    }, "json");
+
+            } else {
+                $.msgGrowl({type: "warning", title: "Action Cancelled", text: "Group data was NOT changed."});
+            }
+        });
+    });
+
     /* Adding a user */
     $(".btn-add-user").live("click", function() {
 
