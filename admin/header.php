@@ -7,7 +7,6 @@
     <!-- Bootstrap -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="bootstrap/css/bootstrap-responsive.min.css" rel="stylesheet" media="screen">
-    <link href="vendors/easypiechart/jquery.easy-pie-chart.css" rel="stylesheet" media="screen">
     <link href="assets/styles.css" rel="stylesheet" media="screen">
     <link href="assets/msgbox/jquery.msgbox.css" rel="stylesheet">
     <link href="assets/msgGrowl/css/msgGrowl.css" rel="stylesheet">
@@ -17,7 +16,7 @@
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
-    <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+    <script src="assets/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 
     <style>
         .ui-autocomplete-loading {
