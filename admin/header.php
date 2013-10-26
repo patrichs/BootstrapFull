@@ -11,11 +11,19 @@
     <link href="assets/styles.css" rel="stylesheet" media="screen">
     <link href="assets/msgbox/jquery.msgbox.css" rel="stylesheet">
     <link href="assets/msgGrowl/css/msgGrowl.css" rel="stylesheet">
+    <link href="assets/jquery-ui-1.10.3/themes/base/jquery-ui.css" rel="stylesheet">
+    <link href="assets/dropzone/dropzone.css" rel="stylesheet">
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
     <script src="vendors/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    <style>
+        .ui-autocomplete-loading {
+            background: white url('assets/jquery-ui-1.10.3/demos/autocomplete/images/ui-anim_basic_16x16.gif') right center no-repeat;
+        }
+    </style>
 </head>
 
 <body>
@@ -35,10 +43,6 @@
                         </a>
                         <ul class="dropdown-menu">
                             <li>
-                                <a tabindex="-1" href="#">Profile</a>
-                            </li>
-                            <li class="divider"></li>
-                            <li>
                                 <a tabindex="-1" href="php/logoutUser.php">Logout</a>
                             </li>
                         </ul>
@@ -46,7 +50,10 @@
                 </ul>
                 <ul class="nav">
                     <li class="active">
-                        <a href="#">Dashboard</a>
+                        <a href="index.php">Dashboard</a>
+                    </li>
+                    <li>
+                        <a href="uploadfiles.php">Upload</a>
                     </li>
                 </ul>
             </div>

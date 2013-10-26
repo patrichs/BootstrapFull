@@ -32,7 +32,9 @@
     <table name="logs" schema="" catalog="bootstrapfull" type="TABLE">
       <column name="logsid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4" autoIncrement="true"/>
       <column name="eventid" sqlType="INT" length="10" precision="0" nullable="false" jdbcType="4"/>
+      <column name="eventtitle" sqlType="VARCHAR" length="32" precision="0" nullable="true" jdbcType="12"/>
       <column name="eventdesc" sqlType="VARCHAR" length="1024" precision="0" nullable="false" jdbcType="12"/>
+      <column name="eventdate" sqlType="DATETIME" length="19" precision="0" nullable="false" jdbcType="93"/>
       <primary-key name="PRIMARY" columns="logsid"/>
     </table>
     <table name="users" schema="" catalog="bootstrapfull" type="TABLE">

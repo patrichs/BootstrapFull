@@ -34,7 +34,7 @@ $(document).ready(function() {
                 }
                 else
                 {
-                    console.log("Login failed: " + data.replyMessage);
+                    alert("Login failed: " + data.replyMessage);
                 }
             }, "json");
     });

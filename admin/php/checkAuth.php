@@ -1,16 +1,16 @@
 <?php
-include ("dbClass.php");
+require_once("dbClass.php");
 
 $checkAuth = new dbClass();
 
-$checkAuth->checkAuthentication();
+$checkVar = $checkAuth->checkAuthentication();
 
-if (!$checkAuth)
+if (!$checkVar)
 {
     header("Location: login.html");
     die();
 }
 else
 {
-    $checkAuth->messages = "Login success";
+    $checkAuth->messages = "User is authenticated.";
 }

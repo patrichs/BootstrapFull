@@ -1,9 +1,10 @@
 <?php
 
-include ("dbClass.php");
+require("checkAuth.php");
 
 $loginUserDB = new dbClass();
 
-$loginUserDB->logout();
+$logout = $loginUserDB->logout();
 
+if ($logout)
 header("Location: ../login.html");

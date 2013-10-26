@@ -1,5 +1,5 @@
 <?php
-include ("dbClass.php");
+require("checkAuth.php");
 
 $oldPassword = $_POST["oldPassword"];
 $newPassword = $_POST["newPassword"];

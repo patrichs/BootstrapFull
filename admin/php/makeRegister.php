@@ -1,5 +1,5 @@
 <?php
-include ("dbClass.php");
+require("checkAuth.php");
 
 $array = array();
 $getJson = json_decode($_POST["obj"], true);

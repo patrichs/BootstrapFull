@@ -1,6 +1,6 @@
 <?php
-include ("dbClass.php");
 
+require_once("dbClass.php");
 $array = array();
 $getJson = json_decode($_POST["obj"], true);
 
@@ -26,6 +26,7 @@ if (isset($getJson["infopls"]))
     if ($getJson["infopls"] == 1)
     {
         $check = $createCon->checkAuthentication();
+        $sessionUserName = $_SESSION["userLoggedIn"];
         if (!$check)
         {
             $array["typeOf"] = "authInfo";
@@ -36,7 +37,7 @@ if (isset($getJson["infopls"]))
         {
             $array["typeOf"] = "authInfo";
             $array["isSuccess"] = 1;
-            $array["replyMessage"] = $check;
+            $array["replyMessage"] = $sessionUserName;
         }
     }
 }

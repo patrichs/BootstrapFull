@@ -8,33 +8,44 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380348153761" ignored="false" />
     <file path="/readme.md" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008985147" ignored="false" />
-    <file path="/checkAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380375803528" ignored="false" />
-    <file path="/login.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380405437455" ignored="false" />
+    <file path="/checkAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381590401092" ignored="false" />
+    <file path="/login.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381349486325" ignored="false" />
     <file path="/login.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406654161" ignored="false" />
-    <file path="/makeAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380405892878" ignored="false" />
+    <file path="/makeAuth.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381349419713" ignored="false" />
     <file path="/register.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406244223" ignored="false" />
     <file path="/register.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380406644969" ignored="false" />
-    <file path="/returnAuthInfo.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380442432306" ignored="false" />
+    <file path="/returnAuthInfo.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381349790565" ignored="false" />
     <file path="/index.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489194752" ignored="false" />
-    <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047197357" ignored="false" />
-    <file path="/footer.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380578805226" ignored="false" />
-    <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381006691416" ignored="false" />
+    <file path="/index.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1382174903069" ignored="false" />
+    <file path="/footer.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381878539530" ignored="false" />
+    <file path="/index.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1382175364810" ignored="false" />
     <file path="/returnAllUsers.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380488823076" ignored="false" />
-    <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381073793700" ignored="false" />
-    <file path="/header.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380578842525" ignored="false" />
-    <file path="/logoutUser.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380489448928" ignored="false" />
+    <file path="/dbClass.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1382136899737" ignored="false" />
+    <file path="/header.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381878660659" ignored="false" />
+    <file path="/logoutUser.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381348090742" ignored="false" />
     <file path="/changeUserDataPopUp.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380579577086" ignored="false" />
     <file path="/changeUserData.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380503762778" ignored="false" />
     <file path="/openUserOptions.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380492830355" ignored="false" />
     <file path="/addUserPopUp.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380579273475" ignored="false" />
     <file path="/deleteUserAccount.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1380580105401" ignored="false" />
-    <file path="/a.sql" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381006515008" ignored="false" />
+    <file path="/a.sql" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381590126103" ignored="false" />
     <file path="/dummy.sql" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381006515008" ignored="false" />
     <file path="/returnAllGroups.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381007506134" ignored="false" />
     <file path="/deleteGroup.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381007962497" ignored="false" />
     <file path="/makeGroup.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381008757770" ignored="false" />
-    <file path="/a.dummy" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047487954" ignored="false" />
+    <file path="/a.dummy" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381613907379" ignored="false" />
     <file path="/changeGroupData.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381047480836" ignored="false" />
+    <file path="/addUserToGroup.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381345549035" ignored="false" />
+    <file path="/addUserToGroupAutoComplete.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381513832380" ignored="false" />
+    <file path="$PROJECT_DIR$/admin/assets/jquery-ui-1.10.3/demos/index.html" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381433922139" ignored="false" />
+    <file path="$PROJECT_DIR$/admin/assets/jquery-ui-1.10.3/tests/unit/testsuite.js" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381433922139" ignored="false" />
+    <file path="/graphUsersToday.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381571574178" ignored="false" />
+    <file path="/writeToLog.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381590862987" ignored="false" />
+    <file path="/styles.css" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381594364074" ignored="false" />
+    <file path="/returnLogsDashboard.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381614580479" ignored="false" />
+    <file path="/uploadfiles.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1381879284765" ignored="false" />
+    <file path="/exportFullLogFile.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1382137193573" ignored="false" />
+    <file path="/teststuff.php" changelist="75e32679-3022-4722-b112-17573cae90fc" time="1382136611669" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +70,52 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="makeRegister.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
+      <file leaf-file-name="dbClass.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="1" selection-start="0" selection-end="1070" vertical-scroll-proportion="-15.692307">
+            <state line="841" column="55" selection-start="22460" selection-end="22460" vertical-scroll-proportion="-65.15385">
+              <folding>
+                <marker date="1382137249043" expanded="true" signature="1892:1996" placeholder="SELECT usern..users..." />
+                <marker date="1382137249043" expanded="true" signature="2709:2826" placeholder="INSERT INTO ..." />
+                <marker date="1382137249043" expanded="true" signature="3518:3593" placeholder="SELECT group..groups..." />
+                <marker date="1382137249043" expanded="true" signature="4051:4110" placeholder="INSERT INTO ..." />
+                <marker date="1382137249043" expanded="true" signature="4842:4927" placeholder="SELECT useri..users..." />
+                <marker date="1382137249043" expanded="true" signature="6010:6098" placeholder="UPDATE `user..." />
+                <marker date="1382137249043" expanded="true" signature="8220:8295" placeholder="SELECT usern..users..." />
+                <marker date="1382137249043" expanded="true" signature="9106:9186" placeholder="UPDATE `user..." />
+                <marker date="1382137249043" expanded="true" signature="10055:10101" placeholder="SELECT * FRO..users..." />
+                <marker date="1382137249043" expanded="true" signature="11049:11096" placeholder="SELECT * FRO..groups..." />
+                <marker date="1382137249043" expanded="true" signature="12230:12340" placeholder="UPDATE `user..." />
+                <marker date="1382137249043" expanded="true" signature="12973:13097" placeholder="UPDATE `user..." />
+                <marker date="1382137249043" expanded="true" signature="13860:13951" placeholder="UPDATE `grou..." />
+                <marker date="1382137249043" expanded="true" signature="14747:14805" placeholder="DELETE FROM ..." />
+                <marker date="1382137249043" expanded="true" signature="15579:15640" placeholder="DELETE FROM ..." />
+                <marker date="1382137249043" expanded="true" signature="16340:16428" placeholder="UPDATE `user..." />
+                <marker date="1382137249043" expanded="true" signature="17144:17262" placeholder="SELECT usern..users..." />
+                <marker date="1382137249043" expanded="true" signature="18077:18171" placeholder="SELECT * FRO..users..." />
+                <marker date="1382137249043" expanded="true" signature="18674:18763" placeholder="SELECT * FRO..users..." />
+                <marker date="1382137249043" expanded="true" signature="19770:19894" placeholder="INSERT INTO ..." />
+                <marker date="1382137249043" expanded="true" signature="20590:20642" placeholder="SELECT * FRO..logs..." />
+                <marker date="1382137249043" expanded="true" signature="20753:20785" placeholder="SELECT * FRO..logs..." />
+                <marker date="1382137249043" expanded="true" signature="21868:21896" placeholder="SELECT * FRO..logs..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="91" column="14" selection-start="3850" selection-end="3850" vertical-scroll-proportion="-24.76923">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="filemanager.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/filemanager.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="-4.576923">
               <folding />
             </state>
           </provider>
@@ -71,99 +124,71 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="5" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0">
+            <state line="513" column="3" selection-start="18924" selection-end="18924" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="changeGroupData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/changeGroupData.php">
+      <file leaf-file-name="uploadfiles.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/uploadfiles.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="41" selection-start="472" selection-end="472" vertical-scroll-proportion="-14.384615">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changeUserData.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="1" selection-start="0" selection-end="672" vertical-scroll-proportion="-17.653847">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="makeGroup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/makeGroup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="-19.461538">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="readme.md" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteGroup.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/deleteGroup.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="50" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.115385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="deleteUserAccount.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/deleteUserAccount.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="25" selection-start="0" selection-end="506" vertical-scroll-proportion="-17.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="returnAllGroups.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/admin/php/returnAllGroups.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="13" selection-start="325" selection-end="325" vertical-scroll-proportion="-13.076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dbClass.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="233" column="48" selection-start="6853" selection-end="6853" vertical-scroll-proportion="-5.243636">
+            <state line="22" column="2" selection-start="753" selection-end="753" vertical-scroll-proportion="-14.384615">
               <folding>
-                <marker date="1381073805619" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-                <marker date="1381073805619" expanded="true" signature="2836:2953" placeholder="INSERT INTO ..." />
-                <marker date="1381073805619" expanded="true" signature="3680:3755" placeholder="SELECT group..groups..." />
-                <marker date="1381073805619" expanded="true" signature="4258:4317" placeholder="INSERT INTO ..." />
-                <marker date="1381073805619" expanded="true" signature="5097:5182" placeholder="SELECT useri..users..." />
-                <marker date="1381073805619" expanded="true" signature="6317:6360" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="6317:6360" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="6317:6398" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="6317:6405" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="8577:8652" placeholder="SELECT usern..users..." />
-                <marker date="1381073805619" expanded="true" signature="9508:9588" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="10505:10534" placeholder="SELECT * FRO..users..." />
-                <marker date="1381073805619" expanded="true" signature="11530:11560" placeholder="SELECT * FRO..groups..." />
-                <marker date="1381073805619" expanded="true" signature="12741:12851" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="13529:13653" placeholder="UPDATE `user..." />
-                <marker date="1381073805619" expanded="true" signature="14464:14555" placeholder="UPDATE `grou..." />
-                <marker date="1381073805619" expanded="true" signature="15351:15409" placeholder="DELETE FROM ..." />
-                <marker date="1381073805619" expanded="true" signature="16183:16244" placeholder="DELETE FROM ..." />
+                <marker date="1381879312546" expanded="true" signature="99:720" placeholder="..." />
+                <marker date="1381879312546" expanded="true" signature="131:709" placeholder="..." />
+                <marker date="1381879312546" expanded="true" signature="164:694" placeholder="..." />
+                <marker date="1381879312546" expanded="true" signature="231:643" placeholder="..." />
+                <marker date="1381879312546" expanded="true" signature="298:441" placeholder="..." />
+                <marker date="1381879312546" expanded="true" signature="501:620" placeholder="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="uploadFilesDropZone.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/admin/php/uploadFilesDropZone.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="2" selection-start="997" selection-end="997" vertical-scroll-proportion="0.5139057">
+              <folding>
+                <element signature="e#7#567#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="exportFullLogFile.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/exportFullLogFile.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="56" column="1" selection-start="1411" selection-end="1411" vertical-scroll-proportion="-27.884615">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="returnLogsDashboard.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/php/returnLogsDashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="29" selection-start="329" selection-end="329" vertical-scroll-proportion="-9.807693">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropzone.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/assets/dropzone/dropzone.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="250" column="44" selection-start="6973" selection-end="6973" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dropzone.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/admin/assets/dropzone/dropzone.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -186,22 +211,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgBox.js" />
-        <option value="$PROJECT_DIR$/admin/assets/msgbox/jquery.msgbox.css" />
-        <option value="$PROJECT_DIR$/admin/php/changeUserData.php" />
-        <option value="$PROJECT_DIR$/admin/addUserPopUp.js" />
-        <option value="$PROJECT_DIR$/admin/changeUserDataPopUp.js" />
-        <option value="$PROJECT_DIR$/admin/php/deleteUserAccount.php" />
+        <option value="$PROJECT_DIR$/admin/php/graphUsersToday.php" />
+        <option value="$PROJECT_DIR$/admin/php/checkAuth.php" />
+        <option value="$PROJECT_DIR$/admin/php/writeToLog.php" />
+        <option value="$PROJECT_DIR$/admin/assets/styles.css" />
+        <option value="$PROJECT_DIR$/admin/php/returnLogsDashboard.php" />
         <option value="$PROJECT_DIR$/admin/footer.php" />
         <option value="$PROJECT_DIR$/admin/header.php" />
-        <option value="$PROJECT_DIR$/admin/index.php" />
-        <option value="$PROJECT_DIR$/admin/php/returnAllGroups.php" />
-        <option value="$PROJECT_DIR$/admin/php/deleteGroup.php" />
-        <option value="$PROJECT_DIR$/admin/php/makeGroup.php" />
-        <option value="$PROJECT_DIR$/readme.md" />
-        <option value="$PROJECT_DIR$/admin/index.js" />
-        <option value="$PROJECT_DIR$/admin/php/changeGroupData.php" />
+        <option value="$PROJECT_DIR$/admin/assets/dropzone/dropzone.css" />
+        <option value="$PROJECT_DIR$/admin/uploadfiles.php" />
+        <option value="$PROJECT_DIR$/admin/teststuff.php" />
         <option value="$PROJECT_DIR$/admin/php/dbClass.php" />
+        <option value="$PROJECT_DIR$/admin/php/exportFullLogFile.php" />
+        <option value="$PROJECT_DIR$/admin/index.js" />
+        <option value="$PROJECT_DIR$/admin/index.php" />
+        <option value="$PROJECT_DIR$/admin/filemanager.php" />
+        <option value="$PROJECT_DIR$/admin/php/uploadFilesDropZone.php" />
       </list>
     </option>
   </component>
@@ -290,83 +315,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="vendors" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="configs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oldstuffarchive" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="BootstrapFull" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="oldhtml" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -406,7 +355,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="msgbox" />
+              <option name="myItemId" value="dropzone" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -419,6 +368,7 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="web-ide.project.structure" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../mysql-connector-java-5.1.26-bin.jar" />
+    <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
@@ -450,11 +400,11 @@
       <recent name="C:\xampp\htdocs\BootstrapFull\admin\vendors" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\BootstrapFull\admin\oldstuffarchive" />
       <recent name="C:\xampp\htdocs\BootstrapFull\admin" />
-      <recent name="C:\xampp\htdocs\BootstrapFull\admin\assets\msgbox" />
-      <recent name="C:\xampp\htdocs\BootstrapFull\admin\assets\msgbox\images" />
+      <recent name="C:\xampp\htdocs\BootstrapFull\admin\php" />
+      <recent name="C:\xampp\htdocs\BootstrapFull\admin\assets\dropzone" />
       <recent name="C:\xampp\htdocs\BootstrapFull\admin\assets" />
+      <recent name="C:\xampp\htdocs\BootstrapFull\admin\oldstuffarchive" />
     </key>
   </component>
   <component name="RunManager">
@@ -509,25 +459,45 @@
     </task>
     <servers />
   </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14034152" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14034152" sideWeight="0.6703786" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25506938" sideWeight="0.67" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26627535" sideWeight="0.6703786" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -594,137 +564,141 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/admin/oldhtml/stats.html">
+    <entry file="file://$PROJECT_DIR$/admin/php/writeToLog.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1380478079299" expanded="false" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
+        <state line="17" column="34" selection-start="463" selection-end="463" vertical-scroll-proportion="-11.115385" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/footer.php">
+    <entry file="file://$PROJECT_DIR$/admin/assets/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="7" selection-start="460" selection-end="460" vertical-scroll-proportion="0.0">
-          <folding>
-            <marker date="1380581558740" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/assets/msgbox/jquery.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="22" selection-start="1620" selection-end="1620" vertical-scroll-proportion="-6.3846154">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/returnAuthInfo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/returnAllUsers.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="0" selection-end="323" vertical-scroll-proportion="-13.076923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/deleteUserAccount.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="25" selection-start="0" selection-end="506" vertical-scroll-proportion="-17.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/deleteGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="50" selection-start="345" selection-end="345" vertical-scroll-proportion="-11.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/makeRegister.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="1" selection-start="0" selection-end="1070" vertical-scroll-proportion="-15.692307">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/makeGroup.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="9" selection-start="622" selection-end="622" vertical-scroll-proportion="-19.461538">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="160" selection-end="160" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/changeUserData.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="1" selection-start="0" selection-end="672" vertical-scroll-proportion="-17.653847">
-          <folding />
-        </state>
+        <state line="231" column="17" selection-start="4596" selection-end="4596" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/changeGroupData.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="41" selection-start="472" selection-end="472" vertical-scroll-proportion="-14.384615">
+        <state line="27" column="25" selection-start="0" selection-end="588" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/php/returnAllGroups.php">
+    <entry file="file://$PROJECT_DIR$/admin/php/checkAuth.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="13" selection-start="325" selection-end="325" vertical-scroll-proportion="-13.076923">
+        <state line="10" column="10" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="7" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/admin/index.js">
+    <entry file="file://$PROJECT_DIR$/admin/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="5" selection-start="3234" selection-end="3234" vertical-scroll-proportion="0.0">
+        <state line="26" column="7" selection-start="1219" selection-end="1219" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/dropzone/dropzone.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="250" column="44" selection-start="6973" selection-end="6973" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/assets/dropzone/dropzone.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/uploadfiles.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="2" selection-start="753" selection-end="753" vertical-scroll-proportion="-14.384615">
+          <folding>
+            <marker date="1381879312546" expanded="true" signature="99:720" placeholder="..." />
+            <marker date="1381879312546" expanded="true" signature="131:709" placeholder="..." />
+            <marker date="1381879312546" expanded="true" signature="164:694" placeholder="..." />
+            <marker date="1381879312546" expanded="true" signature="231:643" placeholder="..." />
+            <marker date="1381879312546" expanded="true" signature="298:441" placeholder="..." />
+            <marker date="1381879312546" expanded="true" signature="501:620" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/returnLogsDashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="29" selection-start="329" selection-end="329" vertical-scroll-proportion="-9.807693">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/exportFullLogFile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="1" selection-start="1411" selection-end="1411" vertical-scroll-proportion="-27.884615">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/php/dbClass.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="233" column="48" selection-start="6853" selection-end="6853" vertical-scroll-proportion="-5.243636">
+        <state line="841" column="55" selection-start="22460" selection-end="22460" vertical-scroll-proportion="-65.15385">
           <folding>
-            <marker date="1381073805619" expanded="true" signature="1952:2056" placeholder="SELECT usern..users..." />
-            <marker date="1381073805619" expanded="true" signature="2836:2953" placeholder="INSERT INTO ..." />
-            <marker date="1381073805619" expanded="true" signature="3680:3755" placeholder="SELECT group..groups..." />
-            <marker date="1381073805619" expanded="true" signature="4258:4317" placeholder="INSERT INTO ..." />
-            <marker date="1381073805619" expanded="true" signature="5097:5182" placeholder="SELECT useri..users..." />
-            <marker date="1381073805619" expanded="true" signature="6317:6360" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="6317:6360" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="6317:6398" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="6317:6405" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="8577:8652" placeholder="SELECT usern..users..." />
-            <marker date="1381073805619" expanded="true" signature="9508:9588" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="10505:10534" placeholder="SELECT * FRO..users..." />
-            <marker date="1381073805619" expanded="true" signature="11530:11560" placeholder="SELECT * FRO..groups..." />
-            <marker date="1381073805619" expanded="true" signature="12741:12851" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="13529:13653" placeholder="UPDATE `user..." />
-            <marker date="1381073805619" expanded="true" signature="14464:14555" placeholder="UPDATE `grou..." />
-            <marker date="1381073805619" expanded="true" signature="15351:15409" placeholder="DELETE FROM ..." />
-            <marker date="1381073805619" expanded="true" signature="16183:16244" placeholder="DELETE FROM ..." />
+            <marker date="1382137249043" expanded="true" signature="1892:1996" placeholder="SELECT usern..users..." />
+            <marker date="1382137249043" expanded="true" signature="2709:2826" placeholder="INSERT INTO ..." />
+            <marker date="1382137249043" expanded="true" signature="3518:3593" placeholder="SELECT group..groups..." />
+            <marker date="1382137249043" expanded="true" signature="4051:4110" placeholder="INSERT INTO ..." />
+            <marker date="1382137249043" expanded="true" signature="4842:4927" placeholder="SELECT useri..users..." />
+            <marker date="1382137249043" expanded="true" signature="6010:6098" placeholder="UPDATE `user..." />
+            <marker date="1382137249043" expanded="true" signature="8220:8295" placeholder="SELECT usern..users..." />
+            <marker date="1382137249043" expanded="true" signature="9106:9186" placeholder="UPDATE `user..." />
+            <marker date="1382137249043" expanded="true" signature="10055:10101" placeholder="SELECT * FRO..users..." />
+            <marker date="1382137249043" expanded="true" signature="11049:11096" placeholder="SELECT * FRO..groups..." />
+            <marker date="1382137249043" expanded="true" signature="12230:12340" placeholder="UPDATE `user..." />
+            <marker date="1382137249043" expanded="true" signature="12973:13097" placeholder="UPDATE `user..." />
+            <marker date="1382137249043" expanded="true" signature="13860:13951" placeholder="UPDATE `grou..." />
+            <marker date="1382137249043" expanded="true" signature="14747:14805" placeholder="DELETE FROM ..." />
+            <marker date="1382137249043" expanded="true" signature="15579:15640" placeholder="DELETE FROM ..." />
+            <marker date="1382137249043" expanded="true" signature="16340:16428" placeholder="UPDATE `user..." />
+            <marker date="1382137249043" expanded="true" signature="17144:17262" placeholder="SELECT usern..users..." />
+            <marker date="1382137249043" expanded="true" signature="18077:18171" placeholder="SELECT * FRO..users..." />
+            <marker date="1382137249043" expanded="true" signature="18674:18763" placeholder="SELECT * FRO..users..." />
+            <marker date="1382137249043" expanded="true" signature="19770:19894" placeholder="INSERT INTO ..." />
+            <marker date="1382137249043" expanded="true" signature="20590:20642" placeholder="SELECT * FRO..logs..." />
+            <marker date="1382137249043" expanded="true" signature="20753:20785" placeholder="SELECT * FRO..logs..." />
+            <marker date="1382137249043" expanded="true" signature="21868:21896" placeholder="SELECT * FRO..logs..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="513" column="3" selection-start="18924" selection-end="18924" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="14" selection-start="3850" selection-end="3850" vertical-scroll-proportion="-24.76923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/filemanager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="3" selection-start="164" selection-end="164" vertical-scroll-proportion="-4.576923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/admin/php/uploadFilesDropZone.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="2" selection-start="997" selection-end="997" vertical-scroll-proportion="0.5139057">
+          <folding>
+            <element signature="e#7#567#0" expanded="true" />
           </folding>
         </state>
       </provider>

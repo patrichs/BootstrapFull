@@ -1,23 +1,23 @@
 <?php
 
-include("cryptography.php");
-include("configs/dbconfig.php");
+require_once("cryptography.php");
+require_once("configs/dbconfig.php");
 
 class dbClass
 {
-    /* Databas variabler */
+    /* Database vars */
     private $dbName, $dbUser, $dbPass, $dbHost, $connection;
 
-    /* Variabler som hanterar användarkonton */
+    /* Handling user accounts */
     private $hash, $username, $password, $email, $validate, $userid;
 
-    /* Variabler som hanterar sessions */
+    /* Handling sessions */
     private $sessionVar, $sessionVal;
 
-    /* Meddelande hantering */
+    /* Message handling */
     public $errors, $messages;
 
-    /* När objektet skapas skapas också anslutningen till databasen */
+    /* When you create the object we establish a connection to the database immediately. */
     public function __construct()
     {
         $getConfig = new dbconfig();
@@ -35,7 +35,7 @@ class dbClass
         }
         catch (PDOException $e)
         {
-            $this->errors = "Kunde inte ansluta. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Cannot connect: " . $e->getMessage();
             return false;
         }
         return true;
@@ -46,7 +46,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -71,14 +71,14 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
         }
 
         $checkRows = $exec->rowCount();
 
         if ($checkRows > 0)
         {
-            $this->errors = "Användarnamnet eller e-post adressen är tyvärr upptagen. Försök med en annan.";
+            $this->errors = "Username or email already taken. Please choose another.";
             return false;
         }
 
@@ -98,11 +98,11 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
             return false;
         }
 
-        $this->messages = "Registreringen lyckades!";
+        $this->messages = "Successfully created the new account!";
         return $exec;
     }
 
@@ -110,7 +110,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -129,7 +129,7 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
         }
 
         $checkRows = $exec->rowCount();
@@ -150,7 +150,7 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
             return false;
         }
 
@@ -162,7 +162,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -182,13 +182,13 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
         }
 
         $checkRows = $exec->rowCount();
         if (!$checkRows == 1)
         {
-            $this->errors = "Fel användarnamn/lösenord";
+            $this->errors = "Wrong username/password";
             return false;
         }
 
@@ -205,7 +205,7 @@ class dbClass
             $this->setSession("userAuthenticated", "Yes");
             $this->setSession("userLoggedIn", $this->username);
             $this->setSession("userIdLoggedIn", $this->userid);
-            $this->messages = "Inloggningen lyckades.";
+            $this->messages = "Login successful.";
 
             $data = array("userid" => $this->userid,
             "logindate" => date('Y-m-d H:i:s'));
@@ -226,7 +226,7 @@ class dbClass
         }
         else
         {
-            $this->errors = "Inloggningen misslyckades. Fel användarnamn/lösenord";
+            $this->errors = "Login failed. Please check your credentials.";
         }
         return $this->validate;
     }
@@ -249,26 +249,26 @@ class dbClass
             {
                 if (isset($_SESSION["userLoggedIn"]))
                 {
-                    $this->messages = "Användaren är redan inloggad";
-                    return $_SESSION["userLoggedIn"];
+                    $this->messages = "User is already signed in.";
+                    return true;
                 }
                 else
                 {
-                    $this->errors = "Det ser ut som att någon är autentiserad men jag vet inte vem...";
+                    $this->errors = "Something is authenticated but I don't know who.";
                     session_destroy();
                     return false;
                 }
             }
             else
             {
-                $this->errors = "Användaren är inte autentiserad korrekt.";
+                $this->errors = "The user is not authenticated correctly.";
                 session_destroy();
                 return false;
             }
         }
         else
         {
-            $this->errors = "Användaren är inte inloggad. Var god logga in";
+            $this->errors = "User not logged in. Please log in.";
             return false;
         }
     }
@@ -276,7 +276,7 @@ class dbClass
     public function logout()
     {
         session_destroy();
-        $this->messages = "Användaren loggades ut";
+        $this->messages = "User was logged out successfully.";
         return true;
     }
 
@@ -284,7 +284,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -304,7 +304,7 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
         }
 
         $checkRows = $exec->rowCount();
@@ -336,7 +336,7 @@ class dbClass
             }
             catch(PDOException $e)
             {
-                $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+                $this->errors = "Something went wrong: " . $e->getMessage();
                 return false;
             }
 
@@ -354,7 +354,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -362,7 +362,8 @@ class dbClass
 
         $exec = $this->connection->prepare("
         SELECT *
-        FROM `users`");
+        FROM `users`
+        LIMIT 10");
 
         try
         {
@@ -370,7 +371,7 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
             return false;
         }
 
@@ -395,7 +396,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -403,7 +404,8 @@ class dbClass
 
         $exec = $this->connection->prepare("
         SELECT *
-        FROM `groups`");
+        FROM `groups`
+        LIMIT 10");
 
         try
         {
@@ -411,7 +413,7 @@ class dbClass
         }
         catch(PDOException $e)
         {
-            $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+            $this->errors = "Something went wrong: " . $e->getMessage();
             return false;
         }
 
@@ -435,13 +437,13 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
         $pwLength = strlen($password);
 
-        if ($pwLength = 0)
+        if ($pwLength == 0)
         {
             $data = array("username" => $username,
                 "email" => $email,
@@ -458,7 +460,7 @@ class dbClass
             }
             catch(PDOException $e)
             {
-                $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+                $this->errors = "Something went wrong: " . $e->getMessage();
                 return false;
             }
 
@@ -483,7 +485,7 @@ class dbClass
             }
             catch(PDOException $e)
             {
-                $this->errors = "Någonting gick fel. Följande sträng är den tekniska informationen: " . $e->getMessage();
+                $this->errors = "Something went wrong: " . $e->getMessage();
                 return false;
             }
 
@@ -496,7 +498,7 @@ class dbClass
     {
         if (!$this->connection)
         {
-            $this->errors = "Ingen anslutning till databasen kunde hittas. Försök igen senare.";
+            $this->errors = "No connection to the database could be found. Try again later.";
             return false;
         }
 
@@ -588,5 +590,258 @@ class dbClass
 
         $this->messages = "Group deleted successfully!";
         return true;
+    }
+
+    public function addUserToGroup($username, $groupid)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "No connection to the database could be found. Try again later.";
+            return false;
+        }
+
+        $data = array("groupid" => $groupid,
+            "username" => $username);
+
+        $exec = $this->connection->prepare("
+            UPDATE `users`
+            SET groupid = :groupid
+            WHERE username = :username
+            ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong. Here is the technical details: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = $username . " was added to the group successfully!";
+        return true;
+    }
+
+    public function addUserToGroupAutoComplete($username)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "No connection to the database could be found. Try again later.";
+            return false;
+        }
+
+        $data = array("username" => $username);
+
+        $exec = $this->connection->prepare("
+            SELECT username
+            FROM `users`
+            WHERE username LIKE CONCAT('%',:username,'%')
+            LIMIT 5
+            ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong. Here is the technical details: " . $e->getMessage();
+            return false;
+        }
+
+        $getArray = array();
+
+        while ($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $getArray[] = array("value" => $row["username"]);
+        }
+
+        return $getArray;
+    }
+
+    public function graphUsersToday()
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "No connection to the database could be found. Try again later.";
+            return false;
+        }
+
+        $today = date("Y-m-d");
+        $data = array("today" => $today);
+
+        $exec = $this->connection->prepare("
+            SELECT *
+            FROM `users`
+            WHERE dateregistered LIKE CONCAT('%',:today,'%')
+            ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong. Here is the technical details: " . $e->getMessage();
+            return false;
+        }
+
+        $usersRegisteredToday = 0;
+        $usersLoggedInToday = 0;
+
+        while($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $usersRegisteredToday++;
+        }
+
+        $exec = $this->connection->prepare("
+            SELECT *
+            FROM `users`
+            WHERE lastlogin LIKE CONCAT('%',:today,'%')
+            ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong. Here is the technical details: " . $e->getMessage();
+            return false;
+        }
+
+        while($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $usersLoggedInToday++;
+        }
+
+        $getArray["RegisteredToday"] = $usersRegisteredToday;
+        $getArray["LoggedInToday"] = $usersLoggedInToday;
+
+        return $getArray;
+    }
+
+    public function writeToEventLog($eventid, $eventtitle, $eventdesc)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "No connection to the database could be found. Try again later.";
+            return false;
+        }
+
+        $data = array("eventid" => $eventid,
+            "eventtitle" => $eventtitle,
+            "eventdesc" => $eventdesc,
+            "eventdate" => date("Y-m-d H:i:s"));
+
+        $exec = $this->connection->prepare("
+        INSERT INTO `logs` (eventid, eventtitle, eventdesc, eventdate)
+        VALUE (:eventid, :eventtitle, :eventdesc, :eventdate)
+        ");
+        try
+        {
+            $exec->execute($data);
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong. Here is the technical details: " . $e->getMessage();
+            return false;
+        }
+
+        $this->messages = "Log was saved to the database.";
+        return true;
+    }
+
+    public function returnLogsDashboard($limit)
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "No connection to the database could be found. Try again later.";
+            return false;
+        }
+
+        /* Get logs */
+        if ($limit == 1)
+        {
+            $exec = $this->connection->prepare("
+            SELECT *
+            FROM `logs`
+            LIMIT 5
+            ");
+        }
+        else
+        {
+            $exec = $this->connection->prepare("
+            SELECT *
+            FROM `logs`
+            ");
+        }
+
+        try
+        {
+            $exec->execute();
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong: " . $e->getMessage();
+            return false;
+        }
+
+        $getArray = array();
+
+        while ($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $getArray["amountOfRows"][] = array(
+                "eventid"    => $row["eventid"],
+                "eventtitle" => $row["eventtitle"],
+                "eventdesc"  => $row["eventdesc"],
+                "eventdate"  => $row["eventdate"]
+            );
+        }
+
+        $amountOfLogs = $exec->rowCount();
+
+        if ($limit == 1)
+        {
+            $getArray["amountOfLogs"] = $amountOfLogs;
+        }
+
+        return $getArray;
+    }
+
+    public function returnFullLogs()
+    {
+        if (!$this->connection)
+        {
+            $this->errors = "No connection to the database could be found. Try again later.";
+            return false;
+        }
+
+        /* Get logs */
+
+        $exec = $this->connection->prepare("
+        SELECT *
+        FROM `logs`
+        ");
+
+        try
+        {
+            $exec->execute();
+        }
+        catch(PDOException $e)
+        {
+            $this->errors = "Something went wrong: " . $e->getMessage();
+            return false;
+        }
+
+        $getArray = array();
+
+        while ($row = $exec->fetch(PDO::FETCH_ASSOC))
+        {
+            $getArray[] =
+                $row["eventdate"] . " --- " .
+                "ID: "    . $row["eventid"] . " --- " .
+                " Title: " . $row["eventtitle"] . " --- " .
+                " Description: "  . $row["eventdesc"] ;
+        }
+
+        return $getArray;
     }
 }
