@@ -215,4 +215,4 @@ pip-log.txt
 .mr.developer.cfg
 
 #PhpStorm
-.idea/**/*
+.idea/workspace.xml
