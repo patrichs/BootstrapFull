@@ -10,6 +10,26 @@ Installation:
 6. Navigate to /admin/login.html to login
 7. All done.
 
+Current features:
+
+- Users
+- Groups
+- Graphs
+- Logs
+- Files
+- Autocomplete (working meh)
+- "Notifications"
+
+All features uses AJAX so the content is always dynamically altered without reloading the page.
+
+If you want to add a feature yourself this is how I do it:
+
+- Implement the bootstrap HTML code
+- Change the CSS if I want to change anything specific
+- Write a new Javascript function that alters the element(s) and posts to a php page
+- Write a new function in dbClass.php that fetches/alters info in the database
+- Create a new php file that takes input from the AJAX call and modifies the output from the previously written function in dbClass.php depending on what I want.
+
 --- Run these queries on your database ---
 
 CREATE TABLE IF NOT EXISTS `files` (
