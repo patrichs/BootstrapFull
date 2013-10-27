@@ -1,5 +1,8 @@
 This project is intended to deliver full back-end, ajax and database support to VinceG's Bootstrap Theme.
 
+A preview of how it looks like can be seen here:
+http://i.imgur.com/LejW7cI.png
+
 Installation:
 
 1. Download this project
